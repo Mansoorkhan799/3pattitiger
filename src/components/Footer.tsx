@@ -101,7 +101,7 @@ export default function Footer() {
               Download 3 Patti Tiger to enjoy the best card gaming experience and earn real cash rewards on your mobile device.
             </p>
             <a 
-              href="https://3pattitigergame.com.pk/download"
+              href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
               target="_blank" 
               rel="noopener noreferrer" 
               className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"

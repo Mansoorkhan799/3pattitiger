@@ -230,7 +230,7 @@ export default function CreateAccountLogin() {
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Now that you know how to create an account and login to 3 Patti Tiger, you're ready to start playing Teen Patti, Rummy, and other card games to earn real money. Download the app today!</p>
                 
                 <Link 
-                  href="https://3pattitigergame.com.pk/download"
+                  href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"

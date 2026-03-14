@@ -277,12 +277,12 @@ export default function TipsToWinBig() {
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Apply these expert tips and strategies to maximize your winnings in 3 Patti Tiger. Download the app now and start playing smarter!</p>
                 
                 <Link 
-                  href="https://3pattitigergame.com.pk/download"
+                  href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
                 >
-                  DOWNLOAD CARD RUMMY NOW
+                  DOWNLOAD NOW
                 </Link>
               </div>
             </div>

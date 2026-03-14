@@ -318,7 +318,7 @@ export default function PattiTigerRealOrFakePage() {
             {/* CTA Button */}
             <div className="mt-6 text-center">
               <a 
-                href="https://3pattitigergame.com.pk/download"
+                href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg hover:shadow-xl"

@@ -71,7 +71,7 @@ export default function DownloadPage() {
       "ratingCount": "600000",
       "bestRating": "5"
     },
-    "downloadUrl": "https://3pattitigergame.com.pk/download",
+    "downloadUrl": "https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183",
     "softwareVersion": "V1.230",
     "fileSize": "49MB",
     "datePublished": "2026-01-03",
@@ -118,7 +118,7 @@ export default function DownloadPage() {
         {/* Download Button - Prominent */}
         <div className="flex justify-center my-12">
           <a 
-            href="https://3pattitigergame.com.pk/download"
+            href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
             target="_blank"
             rel="noopener noreferrer"
             className="relative flex items-center px-12 py-6 text-white font-bold text-xl rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group shadow-2xl"
@@ -180,7 +180,7 @@ export default function DownloadPage() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st January 2026</td>
+                  <td className="py-4 px-6 text-left text-white">15-March-2026</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>
@@ -194,7 +194,7 @@ export default function DownloadPage() {
         {/* Download Button After Table */}
         <div className="flex justify-center mt-8">
           <a 
-            href="https://3pattitigergame.com.pk/download"
+            href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"

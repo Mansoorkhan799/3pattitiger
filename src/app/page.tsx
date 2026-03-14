@@ -123,7 +123,7 @@ export default function Home() {
           "price": "0",
           "priceCurrency": "PKR"
         },
-        "downloadUrl": "https://3pattitigergame.com.pk/download",
+        "downloadUrl": "https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183",
         "softwareVersion": "V1.230",
         "fileSize": "49MB",
         "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
@@ -266,7 +266,7 @@ export default function Home() {
             {/* Download Button */}
             <div className="flex justify-center my-8">
               <a 
-                href="https://3pattitigergame.com.pk/download"
+                href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                 id="download"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -363,7 +363,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Developer</td>
-                  <td className="py-4 px-6 text-left text-white">eriocardrummy dev</td>
+                  <td className="py-4 px-6 text-left text-white">3pattitiger</td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Category</td>
@@ -383,7 +383,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st-January-2026</td>
+                  <td className="py-4 px-6 text-left text-white">15-March-2026</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
@@ -910,7 +910,7 @@ export default function Home() {
 
         <div className="flex justify-center">
           <a 
-            href="https://3pattitigergame.com.pk/download"
+            href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"

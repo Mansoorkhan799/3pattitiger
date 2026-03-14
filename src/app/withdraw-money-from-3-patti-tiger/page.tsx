@@ -49,7 +49,7 @@ export default function WithdrawMoneyPage() {
               </div>
             </div>
             <Link
-              href="https://3pattitigergame.com.pk/download"
+              href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
@@ -354,7 +354,7 @@ export default function WithdrawMoneyPage() {
               Download 3 Patti Tiger now and start withdrawing your earnings securely!
             </p>
             <Link
-              href="https://3pattitigergame.com.pk/download"
+              href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
