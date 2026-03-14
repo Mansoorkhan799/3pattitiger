@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "3 Patti Tiger Pakistan v1.230 Free Download Official APK",
+    default: "3 Patti Tiger Pakistan v1.3(1) Free Download Official APK",
     template: "%s | 3 Patti Tiger"
   },
   description: "3 Patti Tiger 2026 - Pakistan's #1 card game platform. Download 3 Patti Tiger APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "rummy game download"
   ],
   openGraph: {
-    title: '3 Patti Tiger Pakistan v1.230 Free Download Official APK',
+    title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
     description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3 Patti Tiger Pakistan v1.230 Free Download Official APK',
+    title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
     description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://3pattitigergame.com.pk/feature/og-image.webp']
   }
@@ -124,7 +124,7 @@ export default function Home() {
           "priceCurrency": "PKR"
         },
         "downloadUrl": "https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183",
-        "softwareVersion": "V1.230",
+        "softwareVersion": "V1.3(1)",
         "fileSize": "49MB",
         "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
         "screenshot": [
@@ -375,7 +375,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.230</td>
+                  <td className="py-4 px-6 text-left text-white">V1.3(1)</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>

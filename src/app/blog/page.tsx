@@ -268,7 +268,7 @@ export default function Blog() {
         {/* 3 Patti Tiger Latest Version */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
           <h2 className="text-2xl font-bold mb-4 text-white">3 Patti Tiger Latest Version: New Features and 2026 Updates</h2>
-          <p className="text-gray-300 mb-4">3 Patti Tiger V1.230: New features, improvements, UI updates, and 2026 changes. What&apos;s new and why you should update now.</p>
+          <p className="text-gray-300 mb-4">3 Patti Tiger V1.3(1): New features, improvements, UI updates, and 2026 changes. What&apos;s new and why you should update now.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
             <span>📅 March 2026</span>
             <span>•</span>

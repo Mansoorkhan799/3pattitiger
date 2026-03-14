@@ -411,7 +411,7 @@ export default function Blog3PattiLuckyVsPattiTiger() {
               href="/download-3-patti-tiger"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download 3 Patti Tiger APK v1.230
+              Download 3 Patti Tiger APK v1.3(1)
             </Link>
           </div>
         </div>
