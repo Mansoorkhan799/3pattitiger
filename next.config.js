@@ -45,15 +45,6 @@ const nextConfig = {
         source: '/3-patti-blue-logo.webp',
         destination: '/3-patti-tiger-logo.webp',
       },
-      // Serve sitemap index and image sitemap via API so they work over HTTPS (fixes Search Console "Couldn't fetch")
-      {
-        source: '/sitemap-index.xml',
-        destination: '/api/sitemap-index',
-      },
-      {
-        source: '/image-sitemap.xml',
-        destination: '/api/image-sitemap',
-      },
     ];
   },
 
