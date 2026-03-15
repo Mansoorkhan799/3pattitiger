@@ -129,7 +129,9 @@ export default function AboutPage() {
                 "name": "Pakistan"
               },
               "sameAs": [
-                "https://www.facebook.com/share/1at8tjJcje/"
+                "https://www.facebook.com/share/1CALJMZaK9/?mibextid=wwXIfr",
+                "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
+                "https://youtube.com/@3patti-tiger?si=vnZzxCVd-KCdwY-P"
               ],
               "founder": {
                 "@type": "Person",

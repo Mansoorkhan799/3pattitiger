@@ -210,8 +210,9 @@ export default function RootLayout({
               "logo": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
               "description": "3 Patti Tiger is Pakistan's premier gaming platform, offering Dragon Tiger, Crash, Mines, Teen Patti, and many other games with real cash rewards.",
               "sameAs": [
-                "https://facebook.com/3pattitiger",
-                "https://twitter.com/3pattitiger"
+                "https://www.facebook.com/share/1CALJMZaK9/?mibextid=wwXIfr",
+                "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
+                "https://youtube.com/@3patti-tiger?si=vnZzxCVd-KCdwY-P"
               ]
             })
           }}

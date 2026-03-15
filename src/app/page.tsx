@@ -97,7 +97,9 @@ export default function Home() {
           "height": 512
         },
         "sameAs": [
-          "https://www.facebook.com/share/1at8tjJcje/"
+          "https://www.facebook.com/share/1CALJMZaK9/?mibextid=wwXIfr",
+          "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
+          "https://youtube.com/@3patti-tiger?si=vnZzxCVd-KCdwY-P"
         ],
         "contactPoint": {
           "@type": "ContactPoint",
