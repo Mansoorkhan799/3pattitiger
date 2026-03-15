@@ -40,7 +40,12 @@ const nextConfig = {
         source: '/.well-known/:path*',
         destination: '/public/.well-known/:path*',
       },
-      // Serve sitemaps via API so they always return 200 (fixes Search Console "Couldn't fetch")
+      // Redirect old 3Patti Blue logo to 3 Patti Tiger logo
+      {
+        source: '/3-patti-blue-logo.webp',
+        destination: '/3-patti-tiger-logo.webp',
+      },
+      // Serve sitemap index and image sitemap via API so they work over HTTPS (fixes Search Console "Couldn't fetch")
       {
         source: '/sitemap-index.xml',
         destination: '/api/sitemap-index',
@@ -48,11 +53,6 @@ const nextConfig = {
       {
         source: '/image-sitemap.xml',
         destination: '/api/image-sitemap',
-      },
-      // Redirect old 3Patti Blue logo to 3 Patti Tiger logo
-      {
-        source: '/3-patti-blue-logo.webp',
-        destination: '/3-patti-tiger-logo.webp',
       },
     ];
   },

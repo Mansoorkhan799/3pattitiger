@@ -1,16 +1,18 @@
 import { NextResponse } from 'next/server';
 
+const baseUrl = 'https://3pattitigergame.com.pk';
+
 export async function GET() {
-  const baseUrl = 'https://3pattitigergame.com.pk';
+  const lastmod = new Date().toISOString().split('T')[0];
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>${baseUrl}/sitemap.xml</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>${lastmod}</lastmod>
   </sitemap>
   <sitemap>
     <loc>${baseUrl}/image-sitemap.xml</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>${lastmod}</lastmod>
   </sitemap>
 </sitemapindex>`;
 
