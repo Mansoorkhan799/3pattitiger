@@ -40,10 +40,33 @@ export const metadata: Metadata = {
     "play rummy online",
     "rummy game download"
   ],
+  alternates: {
+    canonical: 'https://3pattitigergame.com.pk/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
     description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    url: 'https://3pattitigergame.com.pk/',
+    siteName: '3 Patti Tiger',
+    locale: 'en_US',
     images: [
+      {
+        url: 'https://3pattitigergame.com.pk/3-patti-tiger.webp',
+        width: 512,
+        height: 512,
+        alt: '3 Patti Tiger Pakistan - Official Card Game APK Download'
+      },
       {
         url: 'https://3pattitigergame.com.pk/feature/og-image.webp',
         width: 1200,
@@ -63,7 +86,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
     description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
-    images: ['https://3pattitigergame.com.pk/feature/og-image.webp']
+    images: ['https://3pattitigergame.com.pk/3-patti-tiger.webp']
   }
 };
 
@@ -139,6 +162,29 @@ export default function Home() {
         "author": {
           "@type": "Organization",
           "name": "3 Patti Tiger"
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://3pattitigergame.com.pk/#hero-image",
+        "url": "https://3pattitigergame.com.pk/3-patti-tiger.webp",
+        "contentUrl": "https://3pattitigergame.com.pk/3-patti-tiger.webp",
+        "name": "3 Patti Tiger Pakistan - Official Card Game",
+        "description": "3 Patti Tiger Pakistan official card game app - Download the latest version and play Teen Patti, Rummy, Dragon vs Tiger to earn real cash rewards via JazzCash and EasyPaisa.",
+        "caption": "3 Patti Tiger Pakistan v1.3(1) - Official APK Download 2026",
+        "width": 512,
+        "height": 512,
+        "representativeOfPage": true,
+        "inLanguage": "en-US",
+        "author": {
+          "@type": "Organization",
+          "name": "3 Patti Tiger",
+          "url": "https://3pattitigergame.com.pk/"
+        },
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "3 Patti Tiger",
+          "url": "https://3pattitigergame.com.pk/"
         }
       },
       {
@@ -319,7 +365,8 @@ export default function Home() {
             <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
               <Image
                 src="/3-patti-tiger.webp"
-                alt="3 Patti Tiger"
+                alt="3 Patti Tiger Pakistan - Official Card Game APK Download 2026"
+                title="3 Patti Tiger Pakistan v1.3(1) Free Download"
                 width={320}
                 height={320}
                 className="object-contain drop-shadow-2xl"
@@ -337,7 +384,8 @@ export default function Home() {
             <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
               <Image
                 src="/3-patti-tiger.webp"
-                alt="3 Patti Tiger"
+                alt="3 Patti Tiger Pakistan - Official Card Game APK Download 2026"
+                title="3 Patti Tiger Pakistan v1.3(1) Free Download"
                 width={280}
                 height={280}
                 className="object-contain drop-shadow-2xl"

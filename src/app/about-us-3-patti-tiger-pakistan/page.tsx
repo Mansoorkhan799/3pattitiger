@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-image-preview': 'large',
+      noimageindex: true,
       'max-snippet': -1,
     },
   },
@@ -62,12 +62,12 @@ export default function AboutPage() {
                   <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#0A1029]">
                     <Image
                       src="/3-patti-tiger.webp"
-                      alt="3 Patti Tiger Logo"
+                      alt="3 Patti Tiger"
                       width={320}
                       height={320}
                       sizes="(max-width: 768px) 280px, 320px"
                       className="object-contain p-4 w-full h-full"
-                      priority
+                      loading="lazy"
                     />
                   </div>
                 </Link>
