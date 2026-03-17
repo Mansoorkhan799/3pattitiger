@@ -279,6 +279,18 @@ export default function Home() {
             }
           }
         ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://3pattitigergame.com.pk/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://3pattitigergame.com.pk/"
+          }
+        ]
       }
     ]
   };
@@ -292,6 +304,15 @@ export default function Home() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+
+      {/* Breadcrumb */}
+      <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 md:px-8 pt-4">
+        <ol className="flex items-center text-sm text-gray-400">
+          <li>
+            <span className="text-accent font-medium">Home</span>
+          </li>
+        </ol>
+      </nav>
       
       {/* Hero Section with improved spacing */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
