@@ -403,7 +403,7 @@ export default function Blog3PattiLuckyVsPattiTiger() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>Remember:</strong> Both apps involve real money gambling and operate in a legal gray area. Only play with money you can afford to lose, set strict limits, and play responsibly. See our <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="text-[#FFA500] hover:underline font-semibold">responsible gaming guide</Link> for safety tips.
+            <strong>Remember:</strong> Both apps involve real money gambling and operate in a legal gray area. Only play with money you can afford to lose, set strict limits, and play responsibly. Read our <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="text-[#FFA500] hover:underline font-semibold">safety & legal guide</Link> and <Link href="/blog/tips-to-win-big-in-3-patti-tiger" className="text-[#FFA500] hover:underline font-semibold">winning tips</Link> before you start.
           </p>
 
           <div className="mt-12 text-center">

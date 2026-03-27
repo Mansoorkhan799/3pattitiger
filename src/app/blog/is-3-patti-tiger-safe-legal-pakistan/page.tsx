@@ -354,10 +354,10 @@ export default function BlogIsPattiTigerSafeLegal() {
 
           <div className="mt-12 text-center">
             <Link 
-              href="/blog/responsible-gaming-guide-3-patti-tiger"
+              href="/download-3-patti-tiger"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Read Responsible Gaming Guide
+              Download Official 3 Patti Tiger APK
             </Link>
           </div>
         </div>
@@ -367,11 +367,19 @@ export default function BlogIsPattiTigerSafeLegal() {
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Responsible Gaming Guide</h4>
-              <p className="text-gray-400">How to play safely without addiction</p>
+              <p className="text-gray-400">How to play safely without addiction or big losses</p>
             </Link>
             <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner&apos;s Guide</h4>
               <p className="text-gray-400">Step-by-step safe setup guide</p>
+            </Link>
+            <Link href="/blog/is-3-patti-tiger-real-or-fake" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Is 3 Patti Tiger Real or Fake?</h4>
+              <p className="text-gray-400">Legitimacy, payment proof & fake app detection</p>
+            </Link>
+            <Link href="/blog/3-patti-tiger-app-review-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Full App Review 2026</h4>
+              <p className="text-gray-400">Honest review of features, pros &amp; cons</p>
             </Link>
           </div>
         </aside>

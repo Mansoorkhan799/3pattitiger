@@ -295,7 +295,7 @@ export default function BlogResponsibleGamingGuide() {
           
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Treat It as Entertainment</h3>
           <ul className="list-disc pl-6 text-gray-300 mb-6 space-y-2">
-            <li>View 3 Patti Tiger like going to a movie or restaurant - entertainment expense</li>
+            <li>View 3 Patti Tiger like going to a movie or restaurant - entertainment expense. See our <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="text-[#FFA500] hover:underline font-semibold">ways to earn guide</Link> for legitimate income strategies.</li>
             <li>Don't expect to make money - any winnings are a bonus</li>
             <li>Set entertainment budget (like you would for movies)</li>
             <li>Enjoy the games, not just the money</li>
@@ -403,15 +403,23 @@ export default function BlogResponsibleGamingGuide() {
         </div>
 
         <aside className="mt-16 pt-8 border-t border-gray-700">
-          <h3 className="text-2xl font-bold text-white mb-6">Related Safety Guides</h3>
+          <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Is 3 Patti Tiger Safe and Legal?</h4>
-              <p className="text-gray-400">Complete safety and legal guide</p>
+              <p className="text-gray-400">Complete safety and legal guide for Pakistan</p>
             </Link>
             <Link href="/blog/3-patti-tiger-tips-10-smart-tricks" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">10 Smart Tips</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">10 Smart Tips to Win Safely</h4>
               <p className="text-gray-400">Tips for safe and profitable play</p>
+            </Link>
+            <Link href="/blog/is-3-patti-tiger-real-or-fake" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Is 3 Patti Tiger Real or Fake?</h4>
+              <p className="text-gray-400">Legitimacy, payment proof & how to spot fakes</p>
+            </Link>
+            <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Ways to Earn Responsibly</h4>
+              <p className="text-gray-400">Bonuses, referrals & safe earning strategies</p>
             </Link>
           </div>
         </aside>

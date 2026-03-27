@@ -420,7 +420,15 @@ export default function BlogPattiTigerAppReview() {
             </Link>
             <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Responsible Gaming Guide</h4>
-              <p className="text-gray-400">How to play safely and responsibly</p>
+              <p className="text-gray-400">How to play safely without addiction or losses</p>
+            </Link>
+            <Link href="/blog/create-3-patti-tiger-account-and-login" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Create Account & Login Guide</h4>
+              <p className="text-gray-400">Step-by-step registration for new players</p>
+            </Link>
+            <Link href="/blog/tips-to-win-big-in-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Tips to Win Big</h4>
+              <p className="text-gray-400">Expert strategies & tricks to maximize winnings</p>
             </Link>
           </div>
         </aside>

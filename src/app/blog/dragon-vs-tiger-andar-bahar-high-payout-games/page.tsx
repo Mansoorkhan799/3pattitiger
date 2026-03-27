@@ -391,8 +391,16 @@ export default function BlogHighPayoutGames() {
               <h4 className="text-xl font-semibold text-white mb-2">Tips to Win Big in 3 Patti Tiger</h4>
               <p className="text-gray-400">Advanced strategies for maximizing earnings</p>
             </Link>
+            <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Bonuses & VIP Guide</h4>
+              <p className="text-gray-400">Boost earnings with welcome bonus & VIP rebates</p>
+            </Link>
+            <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Ways to Earn Money 2026</h4>
+              <p className="text-gray-400">All earning methods: games, referrals & bonuses</p>
+            </Link>
             <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
-              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
+              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner&apos;s Guide</h4>
               <p className="text-gray-400">Learn how to use 3 Patti Tiger app</p>
             </Link>
           </div>

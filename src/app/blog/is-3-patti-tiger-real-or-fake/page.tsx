@@ -395,6 +395,22 @@ export default function PattiTigerRealOrFakePage() {
                 <h4 className="text-white font-semibold mb-2">🔐 Account & Login Guide</h4>
                 <p className="text-gray-400 text-sm">Learn how to create and secure your account</p>
               </Link>
+              <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                <h4 className="text-white font-semibold mb-2">⚖️ Is 3 Patti Tiger Safe & Legal?</h4>
+                <p className="text-gray-400 text-sm">Complete legal status & safety guide for Pakistan</p>
+              </Link>
+              <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                <h4 className="text-white font-semibold mb-2">🎁 Bonuses & VIP Rewards Guide</h4>
+                <p className="text-gray-400 text-sm">Welcome bonus, rebates & how to claim every reward</p>
+              </Link>
+              <Link href="/blog/3-patti-tiger-app-review-2026" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                <h4 className="text-white font-semibold mb-2">⭐ Full App Review 2026</h4>
+                <p className="text-gray-400 text-sm">Honest features, pros, cons & payout speed review</p>
+              </Link>
+              <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                <h4 className="text-white font-semibold mb-2">🛡️ Responsible Gaming Guide</h4>
+                <p className="text-gray-400 text-sm">How to play safely without addiction or big losses</p>
+              </Link>
             </div>
           </div>
         </section>

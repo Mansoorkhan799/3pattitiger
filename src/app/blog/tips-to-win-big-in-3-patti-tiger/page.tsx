@@ -74,14 +74,14 @@ export default function TipsToWinBig() {
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">2. Use Bonuses Wisely</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      3 Patti Tiger offers daily login bonuses, referral bonuses, and deposit rewards. Use these bonuses strategically to play more games without spending your own money. Take advantage of welcome bonuses, daily rewards, and special promotions to increase your balance and play more rounds.
+                      3 Patti Tiger offers daily login bonuses, referral bonuses, and deposit rewards. Use these bonuses strategically to play more games without spending your own money. Check our <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="text-accent hover:underline font-semibold">complete bonuses & VIP guide</Link> to make the most of every reward.
                     </p>
                   </div>
 
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">3. Play Popular High-Earning Games</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      Focus on high-earning games like Teen Patti Classic, Dragon vs Tiger, and Rummy that offer better winning chances and attract more players. These games typically have higher payouts and better odds. Learn the specific strategies for each game type to maximize your success rate.
+                      Focus on high-earning games like Teen Patti Classic, <Link href="/blog/dragon-vs-tiger-andar-bahar-high-payout-games" className="text-accent hover:underline font-semibold">Dragon vs Tiger</Link>, and Rummy that offer better winning chances and attract more players. These games typically have higher payouts and better odds. Learn the specific strategies for each game type to maximize your success rate.
                     </p>
                   </div>
 
@@ -265,11 +265,30 @@ export default function TipsToWinBig() {
                   <div>
                     <h3 className="text-xl font-bold text-red-400 mb-2">Play Responsibly</h3>
                     <p className="text-red-300 mb-0">
-                      Remember that 3 Patti Tiger is for entertainment purposes. Only play with money you can afford to lose. If you feel you're developing a gambling problem, seek professional help immediately. Set limits and stick to them.
+                      Remember that 3 Patti Tiger is for entertainment purposes. Only play with money you can afford to lose. Read our <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="text-red-300 underline font-semibold">responsible gaming guide</Link> for detailed safety tips, and seek professional help immediately if needed.
                     </p>
                   </div>
                 </div>
               </div>
+
+              {/* Related Articles */}
+              <aside className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">Related Guides</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">🎁 Bonuses & VIP Guide</h4>
+                    <p className="text-gray-400 text-sm">Maximize welcome bonus, rebates & VIP rewards</p>
+                  </Link>
+                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">📖 Beginner&apos;s Guide</h4>
+                    <p className="text-gray-400 text-sm">Complete setup: download, deposit & first game</p>
+                  </Link>
+                  <Link href="/blog/create-3-patti-tiger-account-and-login" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">🔐 Create Account</h4>
+                    <p className="text-gray-400 text-sm">Step-by-step registration & login guide</p>
+                  </Link>
+                </div>
+              </aside>
 
               {/* CTA */}
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">

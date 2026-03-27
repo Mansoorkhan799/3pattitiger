@@ -329,6 +329,14 @@ export default function Blog3PattiGoldVsPattiTiger() {
         <aside className="mt-16 pt-8 border-t border-gray-700">
           <h3 className="text-2xl font-bold text-white mb-6">Related Comparisons & Guides</h3>
           <div className="grid md:grid-cols-2 gap-6">
+            <Link href="/blog/3patti-blue-vs-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">3Patti Blue vs 3 Patti Tiger</h4>
+              <p className="text-gray-400">Blue or Tiger — which earns more in Pakistan?</p>
+            </Link>
+            <Link href="/blog/3patti-room-vs-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">3Patti Room vs 3 Patti Tiger</h4>
+              <p className="text-gray-400">Social room play vs feature-rich Tiger</p>
+            </Link>
             <Link href="/blog/3patti-lucky-vs-3-patti-tiger" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">3Patti Lucky vs 3 Patti Tiger</h4>
               <p className="text-gray-400">Complete comparison of 3Patti Lucky and 3 Patti Tiger</p>

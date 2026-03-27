@@ -115,7 +115,7 @@ export default function CreateAccountLogin() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold mb-3 text-white">Claim Your Welcome Bonus</h3>
-                      <p className="text-gray-300 leading-relaxed">Once your account is created, you'll automatically receive a welcome bonus. This bonus can be used to play games on the platform and start earning real money.</p>
+                      <p className="text-gray-300 leading-relaxed">Once your account is created, you'll automatically receive a welcome bonus. This bonus can be used to play games on the platform and start earning real money. See our <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="text-accent hover:underline font-semibold">bonuses & VIP guide</Link> to learn how to claim every available reward.</p>
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ export default function CreateAccountLogin() {
                     <svg className="w-6 h-6 text-orange-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>Beware of Phishing:</strong> Only download 3 Patti Tiger from official sources and never click on suspicious links.</span>
+                    <span><strong>Beware of Phishing:</strong> Only download 3 Patti Tiger from official sources. Read our <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="text-accent hover:underline font-semibold">safety & legal guide</Link> to understand the full security picture.</span>
                   </li>
                 </ul>
               </div>
@@ -215,7 +215,7 @@ export default function CreateAccountLogin() {
                   
                   <div className="bg-[#0A1029] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Account Locked?</h3>
-                    <p className="text-gray-300 leading-relaxed">If your account gets locked due to multiple failed login attempts, wait for 30 minutes before trying again, or contact customer support for assistance.</p>
+                    <p className="text-gray-300 leading-relaxed">If your account gets locked due to multiple failed login attempts, wait for 30 minutes before trying again, or contact customer support for assistance. Also see our <Link href="/blog/ips-exceed-issue-3-patti-tiger-how-to-fix" className="text-accent hover:underline font-semibold">IPs Exceed error fix guide</Link> for common login-related issues.</p>
                   </div>
                   
                   <div className="bg-[#0A1029] rounded-xl p-6">
@@ -224,6 +224,25 @@ export default function CreateAccountLogin() {
                   </div>
                 </div>
               </div>
+
+              {/* Related Articles */}
+              <aside className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">What to Do Next</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">📖 Complete Beginner Guide</h4>
+                    <p className="text-gray-400 text-sm">Full walkthrough: download, deposit & play</p>
+                  </Link>
+                  <Link href="/deposit-money-in-3-patti-tiger" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">💳 How to Deposit Money</h4>
+                    <p className="text-gray-400 text-sm">JazzCash & EasyPaisa deposit guide</p>
+                  </Link>
+                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">🎁 Bonuses & VIP Guide</h4>
+                    <p className="text-gray-400 text-sm">Claim welcome bonus & VIP rewards</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Start Playing?</h2>
