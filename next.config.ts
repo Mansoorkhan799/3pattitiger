@@ -93,7 +93,13 @@ const nextConfig: NextConfig = {
       },
       // Sitemaps and robots should be fresh
       {
-        source: "/(sitemap|robots|sitemap-index|image-sitemap)(:ext(.xml|.txt)?)",
+        source: "/:path*.xml",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=86400, must-revalidate" },
+        ],
+      },
+      {
+        source: "/robots.txt",
         headers: [
           { key: "Cache-Control", value: "public, max-age=86400, must-revalidate" },
         ],
