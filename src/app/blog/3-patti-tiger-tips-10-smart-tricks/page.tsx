@@ -36,8 +36,6 @@ export default function BlogPattiTigerTips() {
       />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
-          <Link href="/" className="hover:text-[#FFA500]">Home</Link>
-          <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-[#FFA500]">Blog</Link>
           <span className="mx-2">/</span>
           <span className="text-white">3 Patti Tiger Tips & Tricks</span>

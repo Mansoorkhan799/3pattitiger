@@ -96,8 +96,6 @@ export default function PattiTigerRealOrFakePage() {
       </div>
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm">
-        <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
-        <span className="text-gray-500 mx-2">/</span>
         <Link href="/blog" className="text-[#0ea5e9] hover:underline">Blog</Link>
         <span className="text-gray-500 mx-2">/</span>
         <span className="text-gray-400">Is 3 Patti Tiger Real or Fake?</span>
