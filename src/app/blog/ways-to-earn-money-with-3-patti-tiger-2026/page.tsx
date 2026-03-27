@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import BlogPostSchema from '@/components/BlogPostSchema';
+import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
   title: 'Ways to Earn Money with 3 Patti Tiger in 2026: Bonuses & Strategies',
@@ -25,6 +25,29 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://3pattitigergame.com.pk/blog/ways-to-earn-money-with-3-patti-tiger-2026" },
 };
 
+const faqItems: FaqItem[] = [
+  {
+    question: "How can I earn money on 3 Patti Tiger?",
+    answer: "You can earn money on 3 Patti Tiger through multiple ways: playing games like Teen Patti, Dragon Tiger, and Rummy; collecting daily login bonuses; earning referral commissions by inviting friends; claiming weekly and sports bonuses; and progressing through VIP levels for higher rebates.",
+  },
+  {
+    question: "What bonuses does 3 Patti Tiger offer?",
+    answer: "3 Patti Tiger offers a 100% first-deposit welcome bonus, daily login bonuses, recharge rebates (5%–30% based on deposit amount), weekly bonuses, sports event bonuses, progress bonuses, and VIP-level rewards. These bonuses significantly boost your earning potential.",
+  },
+  {
+    question: "How does the referral program work on 3 Patti Tiger?",
+    answer: "The 3 Patti Tiger referral program lets you earn commission by sharing your unique referral link. When friends join and start playing using your link, you automatically receive a percentage of their deposits as commission. The more active referrals you have, the more passive income you earn.",
+  },
+  {
+    question: "Can I earn on 3 Patti Tiger without investing money?",
+    answer: "Yes, you can earn on 3 Patti Tiger without investing money. Use the referral program to earn commission, collect daily login bonuses and free chips, and participate in free tournaments. These methods let you accumulate balance before making any deposits.",
+  },
+  {
+    question: "What is the minimum withdrawal amount on 3 Patti Tiger?",
+    answer: "The minimum withdrawal on 3 Patti Tiger is typically PKR 500 via JazzCash or EasyPaisa. Bank Card withdrawals have a maximum of PKR 20,000 per transaction. Check the withdrawal section in the app for current limits.",
+  },
+];
+
 export default function BlogWaysToEarnMoneyWithPattiTiger2026() {
   return (
     <main className="min-h-screen bg-[#060A20]">
@@ -33,6 +56,7 @@ export default function BlogWaysToEarnMoneyWithPattiTiger2026() {
         description="Complete guide to earning with 3 Patti Tiger 2026: Weekly bonuses, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your income!"
         slug="ways-to-earn-money-with-3-patti-tiger-2026"
         datePublished="2026-03-02"
+        faqItems={faqItems}
       />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">

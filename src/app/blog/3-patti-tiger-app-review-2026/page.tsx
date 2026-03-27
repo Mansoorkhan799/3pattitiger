@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import BlogPostSchema from '@/components/BlogPostSchema';
+import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
   title: '3 Patti Tiger App Review 2026: Features, Pros, Cons, and Payout Speed',
@@ -25,6 +25,29 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://3pattitigergame.com.pk/blog/3-patti-tiger-app-review-2026" },
 };
 
+const faqItems: FaqItem[] = [
+  {
+    question: "Is 3 Patti Tiger worth playing in 2026?",
+    answer: "Yes, 3 Patti Tiger is worth playing in 2026. It offers a wide variety of games including Teen Patti, Dragon vs Tiger, Rummy, and Crash games with real cash rewards. The platform has 500,000+ active users and supports fast JazzCash and EasyPaisa withdrawals.",
+  },
+  {
+    question: "What games are available on 3 Patti Tiger?",
+    answer: "3 Patti Tiger offers Teen Patti, Dragon Tiger, Rummy, Andar Bahar, Crash, Mines, Poker, 7 Up Down, Domino, Ludo, and many slot games. All games are available 24/7 with real cash prizes.",
+  },
+  {
+    question: "How fast are 3 Patti Tiger withdrawals?",
+    answer: "3 Patti Tiger withdrawals via JazzCash and EasyPaisa are processed within 5–30 minutes. Bank Card withdrawals may take slightly longer. There are no hidden fees for withdrawals.",
+  },
+  {
+    question: "What bonuses does 3 Patti Tiger offer new players?",
+    answer: "3 Patti Tiger offers a 100% welcome bonus on the first deposit, daily login bonuses, recharge rebates up to 30%, referral commissions, weekly bonuses, and VIP-level rewards for regular players.",
+  },
+  {
+    question: "What are the pros and cons of 3 Patti Tiger?",
+    answer: "Pros of 3 Patti Tiger: wide game variety, fast JazzCash/EasyPaisa withdrawals, daily bonuses, referral earning, safe transactions, and free to download. Cons: not available on Google Play Store, requires APK sideload, real-money risk, and gameplay can become addictive.",
+  },
+];
+
 export default function BlogPattiTigerAppReview() {
   return (
     <main className="min-h-screen bg-[#060A20]">
@@ -33,6 +56,7 @@ export default function BlogPattiTigerAppReview() {
         description="Complete 3 Patti Tiger app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is 3 Patti Tiger worth it for Pakistan players?"
         slug="3-patti-tiger-app-review-2026"
         datePublished="2026-01-11"
+        faqItems={faqItems}
       />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import BlogPostSchema from '@/components/BlogPostSchema';
+import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
   title: 'Is 3 Patti Tiger Real or Fake to Earn Money? - Complete Guide 2026',
@@ -38,43 +38,30 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PattiTigerRealOrFakePage() {
-  // Schema.org structured data for blog post
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Is 3 Patti Tiger Real or Fake to Earn Money? - Complete Guide 2026",
-    "description": "Discover if 3 Patti Tiger app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
-    "image": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "3 Patti Tiger",
-      "url": "https://3pattitigergame.com.pk"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "3 Patti Tiger",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp"
-      }
-    },
-    "datePublished": "2026-01-03",
-    "dateModified": "2026-01-03",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://3pattitigergame.com.pk/blog/is-3-patti-tiger-real-or-fake"
-    },
-    "articleSection": "Gaming",
-    "keywords": "3 Patti Tiger real or fake, 3 Patti Tiger legit, 3 Patti Tiger Pakistan, 3 Patti Tiger safety",
-    "articleBody": "Complete guide about 3 Patti Tiger legitimacy, payment methods like JazzCash and EasyPaisa, and safety tips for Pakistani players.",
-    "inLanguage": "en-US",
-    "about": {
-      "@type": "Thing",
-      "name": "3 Patti Tiger App Legitimacy"
-    }
-  };
+const faqItems: FaqItem[] = [
+  {
+    question: "Is 3 Patti Tiger real or fake?",
+    answer: "3 Patti Tiger is a real online gaming platform that allows players to earn real money by playing card games. It is a legitimate app with hundreds of thousands of verified users in Pakistan who have successfully withdrawn winnings via JazzCash and EasyPaisa.",
+  },
+  {
+    question: "Does 3 Patti Tiger actually pay real money?",
+    answer: "Yes, 3 Patti Tiger pays real money. Players can withdraw their winnings directly to JazzCash or EasyPaisa accounts. Withdrawals are processed within 5–30 minutes, and there are no hidden fees.",
+  },
+  {
+    question: "Is 3 Patti Tiger safe to download?",
+    answer: "3 Patti Tiger is safe to download from the official website 3pattitigergame.com.pk. The app uses SSL encryption to protect your data and transactions. Always download from the official source to avoid fake or modified APK files.",
+  },
+  {
+    question: "How to identify fake 3 Patti Tiger apps?",
+    answer: "To identify fake 3 Patti Tiger apps, only download from the official website 3pattitigergame.com.pk. Look for apps that promise unrealistic earnings, ask for unusual permissions, or have a different logo or name. Fake apps may steal your personal data or money.",
+  },
+  {
+    question: "What payment methods does 3 Patti Tiger support?",
+    answer: "3 Patti Tiger supports JazzCash, EasyPaisa, and Bank Card for both deposits and withdrawals. These are Pakistan's most trusted mobile payment platforms, ensuring fast and secure transactions.",
+  },
+];
 
+export default function PattiTigerRealOrFakePage() {
   return (
     <main className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
@@ -82,18 +69,10 @@ export default function PattiTigerRealOrFakePage() {
         description="Discover if 3 Patti Tiger app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps."
         slug="is-3-patti-tiger-real-or-fake"
         datePublished="2026-01-03"
-        breadcrumbOnly
+        image="https://3pattitigergame.com.pk/3-patti-tiger.webp"
+        faqItems={faqItems}
       />
       <article className="py-12 px-4 md:px-8 max-w-4xl mx-auto">
-      {/* Schema.org JSON-LD */}
-      <div suppressHydrationWarning style={{ display: "contents" }}>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schemaData).replace(/</g, "\\u003c"),
-          }}
-        />
-      </div>
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm">
         <Link href="/blog" className="text-[#0ea5e9] hover:underline">Blog</Link>

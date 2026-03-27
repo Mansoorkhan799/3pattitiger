@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import BlogPostSchema from '@/components/BlogPostSchema';
+import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
   title: 'How to Use 3 Patti Tiger App in Pakistan: Complete Beginner\'s Guide 2026',
@@ -25,6 +25,29 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://3pattitigergame.com.pk/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" },
 };
 
+const faqItems: FaqItem[] = [
+  {
+    question: "How do I download 3 Patti Tiger in Pakistan?",
+    answer: "To download 3 Patti Tiger in Pakistan, visit the official website 3pattitigergame.com.pk on your Android device and tap the Download button. The APK file will be saved to your device. Enable 'Install from Unknown Sources' in your settings, then open the APK to install. The app is free and takes about 49MB of storage.",
+  },
+  {
+    question: "How do I register on 3 Patti Tiger?",
+    answer: "To register on 3 Patti Tiger, open the app and tap 'Register'. Enter your mobile number or email address, create a strong password, and verify with the OTP sent to your phone or email. Once verified, your account is created and you'll receive a welcome bonus.",
+  },
+  {
+    question: "How do I deposit money in 3 Patti Tiger?",
+    answer: "To deposit money in 3 Patti Tiger, open the app, go to Wallet, and tap Deposit. Select your payment method (JazzCash, EasyPaisa, or Bank Card), enter the amount, and confirm. Your balance will be credited instantly. The minimum deposit is PKR 100.",
+  },
+  {
+    question: "How do I withdraw money from 3 Patti Tiger?",
+    answer: "To withdraw from 3 Patti Tiger, go to Wallet, tap Withdrawal, choose your method (JazzCash or EasyPaisa), enter the amount and account details, then confirm. Withdrawals are processed within 5–30 minutes with no hidden fees.",
+  },
+  {
+    question: "What should I do first after downloading 3 Patti Tiger?",
+    answer: "After downloading 3 Patti Tiger: Register with your mobile number, claim your welcome bonus, explore the game lobby to find Teen Patti, Dragon Tiger, and other games, practice with free chips or demo mode first, then deposit to start earning real money.",
+  },
+];
+
 export default function BlogHowToUsePattiTigerGuide() {
   return (
     <main className="min-h-screen bg-[#060A20]">
@@ -33,6 +56,7 @@ export default function BlogHowToUsePattiTigerGuide() {
         description="Complete 3 Patti Tiger app guide 2026 for Pakistan: Download, registration, deposit, withdrawal, gameplay & earning tips. Step-by-step tutorial for beginners!"
         slug="how-to-use-3-patti-tiger-app-pakistan-guide-2026"
         datePublished="2026-01-11"
+        faqItems={faqItems}
       />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">

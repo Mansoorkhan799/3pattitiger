@@ -204,15 +204,56 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
+              "@id": "https://3pattitigergame.com.pk/#organization",
               "name": "3 Patti Tiger",
+              "legalName": "3 Patti Tiger",
               "url": "https://3pattitigergame.com.pk",
-              "logo": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-              "description": "3 Patti Tiger is Pakistan's premier gaming platform, offering Dragon Tiger, Crash, Mines, Teen Patti, and many other games with real cash rewards.",
+              "logo": {
+                "@type": "ImageObject",
+                "@id": "https://3pattitigergame.com.pk/#logo",
+                "url": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
+                "contentUrl": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
+                "caption": "3 Patti Tiger Official Logo",
+                "width": 512,
+                "height": 512
+              },
+              "image": "https://3pattitigergame.com.pk/3-patti-tiger.webp",
+              "description": "3 Patti Tiger is Pakistan's premier online gaming platform, offering Teen Patti, Dragon Tiger, Crash, Mines, Rummy and more real-money card games. Trusted by 500,000+ players with fast JazzCash and EasyPaisa withdrawals.",
+              "foundingDate": "2023",
+              "foundingLocation": {
+                "@type": "Place",
+                "name": "Pakistan"
+              },
+              "areaServed": {
+                "@type": "Country",
+                "name": "Pakistan"
+              },
+              "knowsAbout": [
+                "Teen Patti",
+                "Online Card Games",
+                "Dragon Tiger Game",
+                "Rummy",
+                "Online Gaming Pakistan",
+                "JazzCash Gaming",
+                "EasyPaisa Gaming",
+                "Real Money Games"
+              ],
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "contactType": "customer support",
+                  "availableLanguage": ["English", "Urdu"],
+                  "contactOption": "TollFree",
+                  "areaServed": "PK"
+                }
+              ],
               "sameAs": [
                 "https://www.facebook.com/share/1CALJMZaK9/?mibextid=wwXIfr",
                 "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
                 "https://youtube.com/@3patti-tiger?si=vnZzxCVd-KCdwY-P"
-              ]
+              ],
+              "publishingPrinciples": "https://3pattitigergame.com.pk/disclaimer-3-patti-tiger-pakistan",
+              "privacyPolicy": "https://3pattitigergame.com.pk/privacy-3-patti-tiger-pakistan"
             })
           }}
         />

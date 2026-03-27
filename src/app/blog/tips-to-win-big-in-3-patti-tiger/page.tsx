@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
-import BlogPostSchema from '@/components/BlogPostSchema';
+import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
   title: 'Tips to Win Big in 3 Patti Tiger - Expert Strategies & Tricks 2026',
@@ -29,6 +28,29 @@ export const metadata: Metadata = {
   }
 };
 
+const faqItems: FaqItem[] = [
+  {
+    question: "What are the best tips to win big in 3 Patti Tiger?",
+    answer: "The best tips to win big in 3 Patti Tiger are: start with small bets to understand the game, use daily bonuses strategically, focus on high-earning games like Dragon vs Tiger and Teen Patti Classic, stay emotionally controlled, and withdraw winnings regularly via JazzCash or EasyPaisa.",
+  },
+  {
+    question: "How do you win at Teen Patti in 3 Patti Tiger?",
+    answer: "To win at Teen Patti in 3 Patti Tiger, know when to fold on weak hands, bluff strategically but not too often, observe opponents' betting patterns, manage your bankroll carefully, and practice in free mode before playing with real money.",
+  },
+  {
+    question: "Which game gives the highest earnings in 3 Patti Tiger?",
+    answer: "Dragon vs Tiger and Teen Patti Classic are among the highest-earning games on 3 Patti Tiger due to their higher payout rates and large player pools. Rummy is also popular for skill-based consistent earnings.",
+  },
+  {
+    question: "Can you earn without depositing money on 3 Patti Tiger?",
+    answer: "Yes, you can earn on 3 Patti Tiger without depositing money by using the referral program (invite friends and earn commission), collecting daily login bonuses, and using free chips. These methods let you build a balance before investing real money.",
+  },
+  {
+    question: "How to avoid losing money in 3 Patti Tiger?",
+    answer: "To avoid losing money in 3 Patti Tiger: always set a daily budget limit, never chase losses with bigger bets, take regular breaks, practice in demo mode first, withdraw winnings as soon as you reach your target, and avoid playing when emotional or tired.",
+  },
+];
+
 export default function TipsToWinBig() {
   return (
     <>
@@ -37,6 +59,7 @@ export default function TipsToWinBig() {
         description="Discover expert strategies and proven tips to maximize your winnings in 3 Patti Tiger. Learn how to win big in Teen Patti, Rummy, and other card games."
         slug="tips-to-win-big-in-3-patti-tiger"
         datePublished="2026-01-20"
+        faqItems={faqItems}
       />
       <div className="min-h-screen bg-[#060A20]">
         <div className="container mx-auto px-4 py-12">
@@ -309,37 +332,6 @@ export default function TipsToWinBig() {
         </div>
       </div>
 
-      <Script
-        id="blog-post-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "Tips to Win Big in 3 Patti Tiger - Expert Strategies",
-            "description": "Discover expert strategies and tips to maximize your winnings in Teen Patti, Rummy, and other card games.",
-            "datePublished": "2026-01-20T00:00:00Z",
-            "dateModified": new Date().toISOString(),
-            "author": {
-              "@type": "Organization",
-              "name": "3 Patti Tiger Team",
-              "url": "https://3pattitigergame.com.pk"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "3 Patti Tiger",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://3pattitigergame.com.pk/3-patti-tiger.webp"
-              }
-            },
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://3pattitigergame.com.pk/blog/tips-to-win-big-in-3-patti-tiger"
-            }
-          })
-        }}
-      />
     </>
   );
 }

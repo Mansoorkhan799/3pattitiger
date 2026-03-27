@@ -4,6 +4,11 @@ function safeJsonLd(obj: object): string {
   return JSON.stringify(obj).replace(/</g, "\\u003c");
 }
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
 type BlogPostSchemaProps = {
   title: string;
   description: string;
@@ -14,6 +19,8 @@ type BlogPostSchemaProps = {
   breadcrumbOnly?: boolean;
   /** Key summary or first 2-3 paragraphs for AI parsing and articleBody */
   articleBody?: string;
+  /** FAQ items for FAQPage rich result */
+  faqItems?: FaqItem[];
 };
 
 export default function BlogPostSchema({
@@ -25,8 +32,10 @@ export default function BlogPostSchema({
   image = `${BASE}/3-patti-tiger-logo.webp`,
   breadcrumbOnly = false,
   articleBody,
+  faqItems,
 }: BlogPostSchemaProps) {
   const url = `${BASE}/blog/${slug}`;
+  const today = new Date().toISOString();
   const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -38,24 +47,47 @@ export default function BlogPostSchema({
   };
   const article: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "@id": `${url}#article`,
     headline: title,
     description,
     url,
     image,
-    author: { "@type": "Organization", name: "3 Patti Tiger", url: BASE },
+    author: {
+      "@type": "Organization",
+      "@id": `${BASE}/#organization`,
+      name: "3 Patti Tiger",
+      url: BASE,
+    },
     publisher: {
       "@type": "Organization",
+      "@id": `${BASE}/#organization`,
       name: "3 Patti Tiger",
       logo: { "@type": "ImageObject", url: `${BASE}/3-patti-tiger-logo.webp` },
     },
     datePublished,
-    dateModified: dateModified || datePublished,
+    dateModified: dateModified ?? today,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en-US",
+    isPartOf: { "@id": `${BASE}/#website` },
     ...(articleBody && { articleBody }),
   };
+
+  const faqSchema = faqItems && faqItems.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqItems.map(({ question, answer }) => ({
+          "@type": "Question",
+          name: question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: answer,
+          },
+        })),
+      }
+    : null;
+
   return (
     <div suppressHydrationWarning style={{ display: "contents" }}>
       <script
@@ -66,6 +98,12 @@ export default function BlogPostSchema({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: safeJsonLd(article) }}
+        />
+      )}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(faqSchema) }}
         />
       )}
     </div>

@@ -98,7 +98,15 @@ export default function Home() {
         "url": "https://3pattitigergame.com.pk/",
         "name": "3 Patti Tiger",
         "description": "Pakistan's premier card game platform with Teen Patti, Rummy, Dragon Tiger and more",
-        "inLanguage": "en-US"
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://3pattitigergame.com.pk/blog?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "ImageObject",
@@ -241,6 +249,15 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
+      {/* Breadcrumb */}
+      <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 md:px-8 pt-4">
+        <ol className="flex items-center text-sm text-gray-400">
+          <li>
+            <span className="text-accent font-medium">Home</span>
+          </li>
+        </ol>
+      </nav>
+      
       {/* Hero Section with improved spacing */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
         <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
