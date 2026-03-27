@@ -13,19 +13,38 @@ export default function AppleIcon() {
     (
       <div
         style={{
-          fontSize: 100,
-          background: '#FFA500',
+          background: '#06091F',
           width: '100%',
           height: '100%',
           display: 'flex',
+          flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
-          fontWeight: 'bold',
           borderRadius: '20%',
+          gap: '4px',
         }}
       >
-        CR
+        <div
+          style={{
+            fontSize: 56,
+            fontWeight: 'bold',
+            color: '#FFA500',
+            lineHeight: 1,
+            letterSpacing: '-2px',
+          }}
+        >
+          3PT
+        </div>
+        <div
+          style={{
+            fontSize: 18,
+            fontWeight: '600',
+            color: '#ffffff',
+            letterSpacing: '1px',
+          }}
+        >
+          TIGER
+        </div>
       </div>
     ),
     {

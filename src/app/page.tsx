@@ -5,10 +5,7 @@ import { Metadata } from 'next';
 
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
-  title: {
-    default: "3 Patti Tiger Pakistan v1.3(1) Free Download Official APK",
-    template: "%s | 3 Patti Tiger"
-  },
+  title: "3 Patti Tiger Pakistan v1.3(1) Free Download Official APK",
   description: "3 Patti Tiger 2026 - Pakistan's #1 card game platform. Download 3 Patti Tiger APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
   keywords: [
     "3 Patti Tiger",
@@ -101,68 +98,7 @@ export default function Home() {
         "url": "https://3pattitigergame.com.pk/",
         "name": "3 Patti Tiger",
         "description": "Pakistan's premier card game platform with Teen Patti, Rummy, Dragon Tiger and more",
-        "inLanguage": "en-US",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://3pattitigergame.com.pk/?s={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": "Organization",
-        "@id": "https://3pattitigergame.com.pk/#organization",
-        "name": "3 Patti Tiger",
-        "url": "https://3pattitigergame.com.pk/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-          "width": 512,
-          "height": 512
-        },
-        "sameAs": [
-          "https://www.facebook.com/share/1CALJMZaK9/?mibextid=wwXIfr",
-          "https://x.com/goldsbetpk?s=21&t=pREWCR0SGL2R4kK-TCyECg",
-          "https://youtube.com/@3patti-tiger?si=vnZzxCVd-KCdwY-P"
-        ],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "email": "support@3pattitigergame.com.pk",
-          "contactType": "Customer Support",
-          "areaServed": "PK"
-        }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "name": "3 Patti Tiger",
-        "operatingSystem": "Android 5.0+",
-        "applicationCategory": "GameApplication",
-        "image": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-        "logo": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "500000"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "PKR"
-        },
-        "downloadUrl": "https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183",
-        "softwareVersion": "V1.3(1)",
-        "fileSize": "49MB",
-        "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
-        "screenshot": [
-          "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
-          "https://3pattitigergame.com.pk/3-patti-tiger.webp",
-          "https://3pattitigergame.com.pk/3-patti-tiger-game-interface.webp",
-          "https://3pattitigergame.com.pk/3-patti-tiger-game-2026.webp",
-          "https://3pattitigergame.com.pk/3-patti-tiger-bonuses.webp"
-        ],
-        "author": {
-          "@type": "Organization",
-          "name": "3 Patti Tiger"
-        }
+        "inLanguage": "en-US"
       },
       {
         "@type": "ImageObject",

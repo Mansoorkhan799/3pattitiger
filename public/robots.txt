@@ -44,6 +44,17 @@ Allow: /blog/3-patti-tiger-app-review-2026
 Allow: /blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026
 Allow: /blog/is-3-patti-tiger-safe-legal-pakistan
 Allow: /blog/ways-to-earn-money-with-3-patti-tiger-2026
+Allow: /blog/3-patti-tiger-tips-10-smart-tricks
+Allow: /blog/dragon-vs-tiger-andar-bahar-high-payout-games
+Allow: /blog/3-patti-tiger-bonuses-vip-guide
+Allow: /blog/responsible-gaming-guide-3-patti-tiger
+Allow: /blog/3patti-blue-vs-3-patti-tiger
+Allow: /blog/3patti-gold-vs-3-patti-tiger
+Allow: /blog/3patti-lucky-vs-3-patti-tiger
+Allow: /blog/3patti-room-vs-3-patti-tiger
+Allow: /blog/3-patti-tiger-old-version-features-review-2026
+Allow: /blog/3-patti-tiger-latest-version-new-features-2026-updates
+Allow: /blog/ips-exceed-issue-3-patti-tiger-how-to-fix
 
 # Standard pages
 Allow: /contact-us-3-patti-tiger-pakistan

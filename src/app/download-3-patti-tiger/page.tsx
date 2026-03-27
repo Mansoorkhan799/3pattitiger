@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Download 3 Patti Tiger Game Free APK For Android | Latest Version 2026',
@@ -94,7 +95,8 @@ export default function DownloadPage() {
   return (
     <>
       {/* Schema.org JSON-LD */}
-      <script
+      <Script
+        id="download-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />

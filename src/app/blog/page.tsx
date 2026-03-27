@@ -29,6 +29,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://3pattitigergame.com.pk/blog",
   },
+  openGraph: {
+    title: '3 Patti Tiger Blog - Guides, Tips, Reviews & Tutorials 2026',
+    description: 'Complete 3 Patti Tiger blog 2026: App reviews, comparison guides, beginner tutorials, tips & tricks, bonuses guide, safety tips, and responsible gaming.',
+    url: 'https://3pattitigergame.com.pk/blog',
+    siteName: '3 Patti Tiger',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: 'https://3pattitigergame.com.pk/feature/og-image.webp',
+        width: 1200,
+        height: 630,
+        alt: '3 Patti Tiger Blog - Guides, Tips & Reviews',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '3 Patti Tiger Blog - Guides, Tips, Reviews & Tutorials 2026',
+    description: 'Complete 3 Patti Tiger blog 2026: App reviews, comparison guides, beginner tutorials, tips & tricks, bonuses guide, safety tips, and responsible gaming.',
+    images: ['https://3pattitigergame.com.pk/feature/og-image.webp'],
+  },
 };
 
 export default function Blog() {

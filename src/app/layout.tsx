@@ -144,7 +144,6 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-tiger-logo.webp" type="image/webp" sizes="192x192" />
         <link rel="icon" href="/3-patti-tiger-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="apple-touch-icon" href="/3-patti-tiger-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://3pattitigergame.com.pk/3-patti-tiger-logo.webp" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
