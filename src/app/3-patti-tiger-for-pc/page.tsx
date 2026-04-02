@@ -28,12 +28,26 @@ export const metadata: Metadata = {
     canonical: "https://3pattitigergame.com.pk/3-patti-tiger-for-pc",
   },
   openGraph: {
-    title: '3 Patti Tiger for PC Download Latest Version Free 2026',
-    description: 'Download 3 Patti Tiger for PC using Android Emulator. Play on bigger screen with better performance.',
+    title: '3 Patti Tiger for PC Download Free 2026',
+    description: 'Download 3 Patti Tiger for PC using BlueStacks or LDPlayer. Play Teen Patti & Dragon Tiger on a bigger screen.',
     url: "https://3pattitigergame.com.pk/3-patti-tiger-for-pc",
     siteName: "3 Patti Tiger",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://3pattitigergame.com.pk/3-patti-tiger.webp",
+        width: 512,
+        height: 512,
+        alt: "3 Patti Tiger for PC - Play on Windows",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "3 Patti Tiger for PC Download Free 2026",
+    description: "Play 3 Patti Tiger on PC using BlueStacks. Full guide for Windows installation.",
+    images: ["https://3pattitigergame.com.pk/3-patti-tiger.webp"],
   },
 };
 

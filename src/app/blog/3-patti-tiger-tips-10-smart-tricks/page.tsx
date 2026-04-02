@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: '3 Patti Tiger Tips: 10 Smart Tricks to Play Safely and Win More 2026',
+  title: '3 Patti Tiger: 10 Smart Tricks to Win More 2026',
   description: '10 proven 3 Patti Tiger tips and tricks 2026: Bankroll management, game selection, bonus maximization, withdrawal strategies & safe play tips to increase winnings in Pakistan!',
   keywords: [
     '3 Patti Tiger tips',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     '3 Patti Tiger tricks 2026'
   ],
   openGraph: {
-    title: '3 Patti Tiger Tips: 10 Smart Tricks to Play Safely and Win More',
+    title: '3 Patti Tiger: 10 Smart Tricks to Win More 2026',
     description: 'Proven tips and tricks to maximize your 3 Patti Tiger earnings. Learn bankroll management, game strategies, and safe play techniques!',
     type: 'article',
   },
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerTips() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="3 Patti Tiger Tips: 10 Smart Tricks to Play Safely and Win More 2026"
+        title="3 Patti Tiger: 10 Smart Tricks to Win More 2026"
         description="10 proven 3 Patti Tiger tips and tricks 2026: Bankroll management, game selection, bonus maximization, withdrawal strategies & safe play tips to increase winnings in Pakistan!"
         slug="3-patti-tiger-tips-10-smart-tricks"
         datePublished="2026-01-11"
@@ -43,7 +43,7 @@ export default function BlogPattiTigerTips() {
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            3 Patti Tiger Tips: 10 Smart Tricks to Play Safely and Win More
+            3 Patti Tiger: 10 Smart Tricks to Win More 2026
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -452,6 +452,6 @@ export default function BlogPattiTigerTips() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

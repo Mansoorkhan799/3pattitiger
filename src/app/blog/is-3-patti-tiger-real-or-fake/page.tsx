@@ -4,7 +4,7 @@ import Image from 'next/image';
 import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Is 3 Patti Tiger Real or Fake to Earn Money? - Complete Guide 2026',
+  title: 'Is 3 Patti Tiger Real or Fake? Full Guide 2026',
   description: 'Discover if 3 Patti Tiger app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps. Complete guide for Pakistani players.',
   keywords: [
     '3 Patti Tiger real or fake',
@@ -63,9 +63,9 @@ const faqItems: FaqItem[] = [
 
 export default function PattiTigerRealOrFakePage() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="Is 3 Patti Tiger Real or Fake to Earn Money? - Complete Guide 2026"
+        title="Is 3 Patti Tiger Real or Fake? Full Guide 2026"
         description="Discover if 3 Patti Tiger app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps."
         slug="is-3-patti-tiger-real-or-fake"
         datePublished="2026-01-03"
@@ -400,7 +400,7 @@ export default function PattiTigerRealOrFakePage() {
         </div>
       </div>
     </article>
-    </main>
+    </div>
   );
 }
 

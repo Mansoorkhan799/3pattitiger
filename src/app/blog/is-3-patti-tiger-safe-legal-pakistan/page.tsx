@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Is 3 Patti Tiger Safe and Legal in Pakistan? Risks, Rules, and Safe Play Tips 2026',
+  title: 'Is 3 Patti Tiger Safe & Legal in Pakistan? 2026',
   description: 'Is 3 Patti Tiger legal in Pakistan? Complete safety guide 2026: Legal status, risks, security measures, withdrawal safety, and tips for safe play. Know before you play!',
   keywords: [
     'is 3 Patti Tiger legal Pakistan',
@@ -50,9 +50,9 @@ const faqItems: FaqItem[] = [
 
 export default function BlogIsPattiTigerSafeLegal() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="Is 3 Patti Tiger Safe and Legal in Pakistan? Risks, Rules, and Safe Play Tips 2026"
+        title="Is 3 Patti Tiger Safe & Legal in Pakistan? 2026"
         description="Is 3 Patti Tiger legal in Pakistan? Complete safety guide 2026: Legal status, risks, security measures, withdrawal safety, and tips for safe play. Know before you play!"
         slug="is-3-patti-tiger-safe-legal-pakistan"
         datePublished="2026-01-11"
@@ -406,6 +406,6 @@ export default function BlogIsPattiTigerSafeLegal() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

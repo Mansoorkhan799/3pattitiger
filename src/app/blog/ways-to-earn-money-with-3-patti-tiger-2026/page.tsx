@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Ways to Earn Money with 3 Patti Tiger in 2026: Bonuses & Strategies',
+  title: 'Ways to Earn Money with 3 Patti Tiger 2026',
   description: 'Complete guide to earning with 3 Patti Tiger 2026: Weekly bonuses, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your income!',
   keywords: [
     'earn money 3 Patti Tiger',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     '3 Patti Tiger Pakistan earning'
   ],
   openGraph: {
-    title: 'Ways to Earn Money with 3 Patti Tiger in 2026: Bonuses & Strategies',
+    title: 'Ways to Earn Money with 3 Patti Tiger 2026',
     description: 'Learn all ways to earn: weekly bonus, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your 3 Patti Tiger income!',
     type: 'article',
   },
@@ -50,9 +50,9 @@ const faqItems: FaqItem[] = [
 
 export default function BlogWaysToEarnMoneyWithPattiTiger2026() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="Ways to Earn Money with 3 Patti Tiger in 2026: Bonuses & Strategies"
+        title="Ways to Earn Money with 3 Patti Tiger 2026"
         description="Complete guide to earning with 3 Patti Tiger 2026: Weekly bonuses, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your income!"
         slug="ways-to-earn-money-with-3-patti-tiger-2026"
         datePublished="2026-03-02"
@@ -293,6 +293,6 @@ export default function BlogWaysToEarnMoneyWithPattiTiger2026() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

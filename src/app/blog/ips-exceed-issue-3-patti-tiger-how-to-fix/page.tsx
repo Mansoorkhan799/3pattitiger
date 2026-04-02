@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogIPsExceedIssuePattiTigerFix() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
         title="IPs Exceed Issue in 3 Patti Tiger! How to Fix? 2026"
         description="Getting IPs Exceed error in 3 Patti Tiger? Learn what causes it, how to fix it, and prevent it. Complete troubleshooting guide for Pakistan players 2026."
@@ -147,6 +147,6 @@ export default function BlogIPsExceedIssuePattiTigerFix() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

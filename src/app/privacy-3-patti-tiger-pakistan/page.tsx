@@ -11,6 +11,20 @@ export const metadata: Metadata = {
     url: 'https://3pattitigergame.com.pk/privacy-3-patti-tiger-pakistan',
     siteName: '3 Patti Tiger',
     type: 'website',
+    images: [
+      {
+        url: 'https://3pattitigergame.com.pk/3-patti-tiger-logo.webp',
+        width: 512,
+        height: 512,
+        alt: '3 Patti Tiger Pakistan Privacy Policy',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy 3 Patti Tiger Pakistan',
+    description: 'Read how 3 Patti Tiger Pakistan collects, uses, and protects your personal data.',
+    images: ['https://3pattitigergame.com.pk/3-patti-tiger-logo.webp'],
   },
   alternates: {
     canonical: 'https://3pattitigergame.com.pk/privacy-3-patti-tiger-pakistan',

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: '3 Patti Tiger Bonuses Explained: Welcome Bonus, Recharge Rebate, and VIP Rewards Guide 2026',
+  title: '3 Patti Tiger Bonuses & VIP Rewards Guide 2026',
   description: 'Complete 3 Patti Tiger bonuses guide 2026: Welcome bonus, recharge rebate, VIP levels, referral commission, daily tasks & step-by-step guide to maximize rewards in Pakistan!',
   keywords: [
     '3 Patti Tiger bonuses',
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerBonusesVIPGuide() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="3 Patti Tiger Bonuses Explained: Welcome Bonus, Recharge Rebate, and VIP Rewards Guide 2026"
+        title="3 Patti Tiger Bonuses & VIP Rewards Guide 2026"
         description="Complete 3 Patti Tiger bonuses guide 2026: Welcome bonus, recharge rebate, VIP levels, referral commission, daily tasks & step-by-step guide to maximize rewards in Pakistan!"
         slug="3-patti-tiger-bonuses-vip-guide"
         datePublished="2026-01-11"
@@ -541,6 +541,6 @@ export default function BlogPattiTigerBonusesVIPGuide() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

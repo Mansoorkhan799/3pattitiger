@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerLatestVersionNewFeatures() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
         title="3 Patti Tiger Latest Version: New Features and 2026 Updates"
         description="3 Patti Tiger latest version V1.3(1): New features, improvements, UI updates, and 2026 changes. What's new and why you should update now."
@@ -156,6 +156,6 @@ export default function BlogPattiTigerLatestVersionNewFeatures() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

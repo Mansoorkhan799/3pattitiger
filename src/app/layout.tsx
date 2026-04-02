@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "3 Patti Tiger Pakistan - Official APK Download | Teen Patti Tiger",
     template: "%s | 3 Patti Tiger"
   },
-  description: "3 Patti Tiger 2026 - Pakistan's #1 gaming platform. Download Teen Patti Tiger APK, play Dragon Tiger, Crash, Mines & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join millions of players!",
+  description: "Pakistan's #1 card game app. Download 3 Patti Tiger APK, play Teen Patti, Dragon Tiger & win real cash. Fast JazzCash & EasyPaisa withdrawals.",
   keywords: [
     "3 Patti Tiger",
     "Teen Patti Tiger",
@@ -86,11 +86,11 @@ export const metadata: Metadata = {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://3pattitigergame.com.pk",
+    canonical: "https://3pattitigergame.com.pk/",
   },
   openGraph: {
     title: "3 Patti Tiger Pakistan - Official APK Download | Teen Patti Tiger",
-    description: "3 Patti Tiger 2026 - Pakistan's #1 gaming platform. Join millions of players. Play Dragon Tiger, Crash, Mines & more. Earn real money with JazzCash & EasyPaisa. Download now!",
+    description: "Download 3 Patti Tiger APK free. Play Teen Patti, Dragon Tiger & more. Earn real money with JazzCash & EasyPaisa. Pakistan's #1 card game!",
     url: "https://3pattitigergame.com.pk",
     siteName: "3 Patti Tiger",
     locale: "en_US",
@@ -113,7 +113,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "3 Patti Tiger Pakistan - Official APK Download | Teen Patti Tiger",
-    description: "3 Patti Tiger 2026 - Pakistan's #1 gaming platform. Join millions of players. Play Dragon Tiger, Crash, Mines & more. Earn real money with JazzCash & EasyPaisa. Download now!",
+    description: "Download 3 Patti Tiger APK free. Play Teen Patti, Dragon Tiger & more. Earn real money with JazzCash & EasyPaisa. Pakistan's #1 card game!",
     creator: "@3pattitiger",
     images: [
       {

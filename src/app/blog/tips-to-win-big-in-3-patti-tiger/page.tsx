@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Tips to Win Big in 3 Patti Tiger - Expert Strategies & Tricks 2026',
+  title: 'Tips to Win Big in 3 Patti Tiger 2026',
   description: 'Discover expert strategies and proven tips to maximize your winnings in 3 Patti Tiger. Learn how to win big in Teen Patti, Rummy, and other card games.',
   keywords: ['3 Patti Tiger tips', 'win big 3 Patti Tiger', 'Teen Patti strategies', 'Rummy tricks', '3 Patti Tiger strategies', 'earn money 3 Patti Tiger'],
   robots: {
@@ -55,7 +55,7 @@ export default function TipsToWinBig() {
   return (
     <>
       <BlogPostSchema
-        title="Tips to Win Big in 3 Patti Tiger - Expert Strategies & Tricks 2026"
+        title="Tips to Win Big in 3 Patti Tiger 2026"
         description="Discover expert strategies and proven tips to maximize your winnings in 3 Patti Tiger. Learn how to win big in Teen Patti, Rummy, and other card games."
         slug="tips-to-win-big-in-3-patti-tiger"
         datePublished="2026-01-20"

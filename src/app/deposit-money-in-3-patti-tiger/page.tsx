@@ -3,20 +3,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Deposit Money in 3 Patti Tiger? | Quick & Safe Payment Guide 2026',
-  description: 'Learn how to deposit money in 3 Patti Tiger using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
+  title: 'How to Deposit Money in 3 Patti Tiger | Payment Guide',
+  description: 'Deposit money in 3 Patti Tiger using JazzCash or EasyPaisa. Step-by-step guide for quick, safe deposits. Min deposit PKR 100.',
   keywords: 'deposit money 3 Patti Tiger, 3 Patti Tiger payment methods, jazzcash deposit, easypaisa deposit, add funds 3 Patti Tiger, 3 Patti Tiger recharge',
   openGraph: {
-    title: 'How to Deposit Money in 3 Patti Tiger? | Quick & Safe Payment Guide',
-    description: 'Step-by-step guide to deposit money in 3 Patti Tiger using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
+    title: 'How to Deposit Money in 3 Patti Tiger | Payment Guide',
+    description: 'Step-by-step guide to deposit money in 3 Patti Tiger using JazzCash and EasyPaisa. Quick, safe, and secure.',
     url: 'https://3pattitigergame.com.pk/deposit-money-in-3-patti-tiger',
     siteName: '3 Patti Tiger',
     type: 'article',
+    images: [
+      {
+        url: 'https://3pattitigergame.com.pk/3-patti-tiger-add-money.webp',
+        width: 400,
+        height: 711,
+        alt: 'How to Deposit Money in 3 Patti Tiger',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Deposit Money in 3 Patti Tiger?',
-    description: 'Learn how to deposit money in 3 Patti Tiger using JazzCash and EasyPaisa with our complete guide.',
+    title: 'How to Deposit Money in 3 Patti Tiger | Payment Guide',
+    description: 'Deposit money in 3 Patti Tiger via JazzCash or EasyPaisa. Step-by-step guide, min PKR 100.',
+    images: ['https://3pattitigergame.com.pk/3-patti-tiger-add-money.webp'],
   },
   alternates: {
     canonical: 'https://3pattitigergame.com.pk/deposit-money-in-3-patti-tiger',
@@ -25,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function DepositMoneyPage() {
   return (
-    <main className="min-h-screen bg-primary" itemScope itemType="https://schema.org/Article">
+    <div className="min-h-screen bg-primary" itemScope itemType="https://schema.org/Article">
       {/* Hero Section */}
       <section className="relative py-12 md:py-20 bg-secondary border-b border-gray-800">
         <div className="container mx-auto px-4">
@@ -378,7 +387,7 @@ export default function DepositMoneyPage() {
           }).replace(/</g, "\\u003c")
         }}
       />
-    </main>
+    </div>
   );
 }
 

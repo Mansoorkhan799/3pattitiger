@@ -3,20 +3,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Withdraw Money from 3 Patti Tiger? | Fast & Secure Withdrawal Guide 2026',
-  description: 'Learn how to withdraw money from 3 Patti Tiger using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
+  title: 'How to Withdraw Money from 3 Patti Tiger | Cash Out Guide',
+  description: 'Withdraw money from 3 Patti Tiger via JazzCash, EasyPaisa or Bank Card. Step-by-step guide. Payouts processed in 5–30 minutes.',
   keywords: 'withdraw money 3 Patti Tiger, 3 Patti Tiger withdrawal, jazzcash withdrawal, easypaisa withdrawal, cash out 3 Patti Tiger, 3 Patti Tiger payout',
   openGraph: {
-    title: 'How to Withdraw Money from 3 Patti Tiger? | Fast & Secure Withdrawal Guide',
-    description: 'Step-by-step guide to withdraw money from 3 Patti Tiger using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
+    title: 'How to Withdraw Money from 3 Patti Tiger | Cash Out Guide',
+    description: 'Step-by-step guide to withdraw money from 3 Patti Tiger via JazzCash, EasyPaisa, or Bank Card. Fast payouts in 5–30 min.',
     url: 'https://3pattitigergame.com.pk/withdraw-money-from-3-patti-tiger',
     siteName: '3 Patti Tiger',
     type: 'article',
+    images: [
+      {
+        url: 'https://3pattitigergame.com.pk/3-patti-tiger-withdraw-money.webp',
+        width: 400,
+        height: 711,
+        alt: 'How to Withdraw Money from 3 Patti Tiger',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Withdraw Money from 3 Patti Tiger?',
-    description: 'Learn how to withdraw money from 3 Patti Tiger using our complete withdrawal guide.',
+    title: 'How to Withdraw Money from 3 Patti Tiger | Cash Out Guide',
+    description: 'Withdraw from 3 Patti Tiger via JazzCash, EasyPaisa or Bank Card. Payouts in 5–30 min.',
+    images: ['https://3pattitigergame.com.pk/3-patti-tiger-withdraw-money.webp'],
   },
   alternates: {
     canonical: 'https://3pattitigergame.com.pk/withdraw-money-from-3-patti-tiger',
@@ -25,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function WithdrawMoneyPage() {
   return (
-    <main className="min-h-screen bg-primary" itemScope itemType="https://schema.org/Article">
+    <div className="min-h-screen bg-primary" itemScope itemType="https://schema.org/Article">
       {/* Hero Section */}
       <section className="relative py-12 md:py-20 bg-secondary border-b border-gray-800">
         <div className="container mx-auto px-4">
@@ -430,7 +439,7 @@ export default function WithdrawMoneyPage() {
           }).replace(/</g, "\\u003c")
         }}
       />
-    </main>
+    </div>
   );
 }
 

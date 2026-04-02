@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: '3Patti Lucky vs 3 Patti Tiger: Which Game Is Better for Earning Real Cash? 2026',
+  title: '3Patti Lucky vs 3 Patti Tiger: Which Is Better?',
   description: 'Detailed comparison: 3Patti Lucky vs 3 Patti Tiger. Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan players in 2026!',
   keywords: [
     '3Patti Lucky vs 3 Patti Tiger',
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 
 export default function Blog3PattiLuckyVsPattiTiger() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="3Patti Lucky vs 3 Patti Tiger: Which Game Is Better for Earning Real Cash? 2026"
+        title="3Patti Lucky vs 3 Patti Tiger: Which Is Better?"
         description="Detailed comparison: 3Patti Lucky vs 3 Patti Tiger. Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan players in 2026!"
         slug="3patti-lucky-vs-3-patti-tiger"
         datePublished="2026-01-11"
@@ -436,6 +436,6 @@ export default function Blog3PattiLuckyVsPattiTiger() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

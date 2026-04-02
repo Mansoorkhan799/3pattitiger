@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerOldVersionFeaturesReview() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
         title="3 Patti Tiger Old Version: Features Review and Details 2026"
         description="3 Patti Tiger old version review: Classic features, legacy games, UI comparison, and why some players prefer older versions. Complete features & details for 2026."
@@ -168,6 +168,6 @@ export default function BlogPattiTigerOldVersionFeaturesReview() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

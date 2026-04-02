@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: "3 Patti Tiger Pakistan v1.3(1) Free Download Official APK",
-  description: "3 Patti Tiger 2026 - Pakistan's #1 card game platform. Download 3 Patti Tiger APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "3 Patti Tiger - Pakistan's #1 card game. Download APK free, play Teen Patti, Rummy & Dragon Tiger. Win real cash, fast JazzCash & EasyPaisa withdrawals.",
   keywords: [
     "3 Patti Tiger",
     "3 Patti Tiger game",

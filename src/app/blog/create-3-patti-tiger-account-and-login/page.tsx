@@ -1,10 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'How to Create a 3 Patti Tiger Account and Login? - Step by Step Guide',
+  title: 'How to Create 3 Patti Tiger Account & Login 2026',
   description: 'Learn how to create your 3 Patti Tiger account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
   keywords: ['3 Patti Tiger account', '3 Patti Tiger login', '3 Patti Tiger registration', '3 Patti Tiger sign up', '3 Patti Tiger guide'],
   robots: {
@@ -33,7 +32,7 @@ export default function CreateAccountLogin() {
   return (
     <>
       <BlogPostSchema
-        title="How to Create a 3 Patti Tiger Account and Login? - Step by Step Guide"
+        title="How to Create 3 Patti Tiger Account & Login 2026"
         description="Learn how to create your 3 Patti Tiger account and login with our step-by-step guide. Get started playing games and earning rewards in minutes."
         slug="create-3-patti-tiger-account-and-login"
         datePublished="2026-01-20"
@@ -262,37 +261,6 @@ export default function CreateAccountLogin() {
         </div>
       </div>
 
-      <Script
-        id="blog-post-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "How to Create Account and Login? - 3 Patti Tiger",
-            "description": "Learn how to create an account and login to 3 Patti Tiger. Step by step guide for registration and accessing your account.",
-            "datePublished": "2026-01-20T00:00:00Z",
-            "dateModified": new Date().toISOString(),
-            "author": {
-              "@type": "Organization",
-              "name": "3 Patti Tiger Team",
-              "url": "https://3pattitigergame.com.pk"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "3 Patti Tiger",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://3pattitigergame.com.pk/3-patti-tiger.webp"
-              }
-            },
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://3pattitigergame.com.pk/blog/create-3-patti-tiger-account-and-login"
-            }
-          })
-        }}
-      />
     </>
   );
 }

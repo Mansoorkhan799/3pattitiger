@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games in 3 Patti Tiger App 2026',
+  title: 'Dragon vs Tiger & Andar Bahar in 3 Patti Tiger 2026',
   description: 'Discover the best high-payout games in 3 Patti Tiger: Dragon vs Tiger, Andar Bahar, Teen Patti & Rummy. Learn which games offer highest win rates & fastest earnings in Pakistan 2026!',
   keywords: [
     'Dragon vs Tiger 3 Patti Tiger',
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
 
 export default function BlogHighPayoutGames() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games in 3 Patti Tiger App 2026"
+        title="Dragon vs Tiger & Andar Bahar in 3 Patti Tiger 2026"
         description="Discover the best high-payout games in 3 Patti Tiger: Dragon vs Tiger, Andar Bahar, Teen Patti & Rummy. Learn which games offer highest win rates & fastest earnings in Pakistan 2026!"
         slug="dragon-vs-tiger-andar-bahar-high-payout-games"
         datePublished="2026-01-11"
@@ -404,6 +404,6 @@ export default function BlogHighPayoutGames() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

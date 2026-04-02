@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      noimageindex: true,
+      'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
@@ -123,7 +123,7 @@ export default function AboutPage() {
               "url": "https://3pattitigergame.com.pk",
               "logo": "https://3pattitigergame.com.pk/3-patti-tiger-logo.webp",
               "description": "3 Patti Tiger is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
-              "foundingDate": "2024",
+              "foundingDate": "2023",
               "foundingLocation": {
                 "@type": "Country",
                 "name": "Pakistan"

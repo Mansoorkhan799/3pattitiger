@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BlogPostSchema, { FaqItem } from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: '3 Patti Tiger App Review 2026: Features, Pros, Cons, and Payout Speed',
+  title: '3 Patti Tiger App Review 2026: Pros, Cons & Payouts',
   description: 'Complete 3 Patti Tiger app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is 3 Patti Tiger worth it for Pakistan players?',
   keywords: [
     '3 Patti Tiger review',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     '3 Patti Tiger Pakistan review'
   ],
   openGraph: {
-    title: '3 Patti Tiger App Review 2026: Features, Pros, Cons, and Payout Speed',
+    title: '3 Patti Tiger App Review 2026: Pros, Cons & Payouts',
     description: 'Honest, comprehensive review of 3 Patti Tiger app. Features, games, bonuses, withdrawal speed, and real user experience for 2026.',
     type: 'article',
   },
@@ -50,9 +50,9 @@ const faqItems: FaqItem[] = [
 
 export default function BlogPattiTigerAppReview() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="3 Patti Tiger App Review 2026: Features, Pros, Cons, and Payout Speed"
+        title="3 Patti Tiger App Review 2026: Pros, Cons & Payouts"
         description="Complete 3 Patti Tiger app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is 3 Patti Tiger worth it for Pakistan players?"
         slug="3-patti-tiger-app-review-2026"
         datePublished="2026-01-11"
@@ -67,7 +67,7 @@ export default function BlogPattiTigerAppReview() {
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            3 Patti Tiger App Review 2026: Features, Pros, Cons, and Payout Speed
+            3 Patti Tiger App Review 2026: Pros, Cons & Payouts
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -455,6 +455,6 @@ export default function BlogPattiTigerAppReview() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

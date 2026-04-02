@@ -3,8 +3,8 @@ import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
 export const metadata: Metadata = {
-  title: 'Responsible Gaming Guide: How to Enjoy 3 Patti Tiger Without Addiction or Big Losses 2026',
-  description: 'Complete responsible gaming guide for 3 Patti Tiger 2026: How to play safely, avoid addiction, set limits, recognize warning signs, and enjoy gaming without financial harm in Pakistan.',
+  title: 'Responsible Gaming Guide for 3 Patti Tiger 2026',
+  description: 'Responsible gaming guide for 3 Patti Tiger 2026: Set limits, avoid addiction & play safely in Pakistan. Essential tips for every player.',
   keywords: [
     'responsible gaming 3 Patti Tiger',
     '3 Patti Tiger addiction',
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
 
 export default function BlogResponsibleGamingGuide() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="Responsible Gaming Guide: How to Enjoy 3 Patti Tiger Without Addiction or Big Losses 2026"
-        description="Complete responsible gaming guide for 3 Patti Tiger 2026: How to play safely, avoid addiction, set limits, recognize warning signs, and enjoy gaming without financial harm in Pakistan."
+        title="Responsible Gaming Guide for 3 Patti Tiger 2026"
+        description="Responsible gaming guide for 3 Patti Tiger 2026: Set limits, avoid addiction & play safely in Pakistan. Essential tips for every player."
         slug="responsible-gaming-guide-3-patti-tiger"
         datePublished="2026-01-11"
       />
@@ -422,6 +422,6 @@ export default function BlogResponsibleGamingGuide() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

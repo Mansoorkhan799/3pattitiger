@@ -50,9 +50,9 @@ const faqItems: FaqItem[] = [
 
 export default function BlogHowToUsePattiTigerGuide() {
   return (
-    <main className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#060A20]">
       <BlogPostSchema
-        title="How to Use 3 Patti Tiger App in Pakistan: Complete Beginner's Guide 2026"
+        title="How to Use 3 Patti Tiger App in Pakistan 2026"
         description="Complete 3 Patti Tiger app guide 2026 for Pakistan: Download, registration, deposit, withdrawal, gameplay & earning tips. Step-by-step tutorial for beginners!"
         slug="how-to-use-3-patti-tiger-app-pakistan-guide-2026"
         datePublished="2026-01-11"
@@ -67,7 +67,7 @@ export default function BlogHowToUsePattiTigerGuide() {
 
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            How to Use 3 Patti Tiger App in Pakistan: Complete Beginner's Guide 2026
+            How to Use 3 Patti Tiger App in Pakistan 2026
           </h1>
           <div className="flex items-center gap-4 text-gray-400 text-sm">
             <time dateTime="2026-01-11">January 11, 2026</time>
@@ -655,6 +655,6 @@ export default function BlogHowToUsePattiTigerGuide() {
           </div>
         </aside>
       </article>
-    </main>
+    </div>
   );
 }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Download 3 Patti Tiger Game Free APK For Android | Latest Version 2026',
+  title: 'Download 3 Patti Tiger APK Free for Android 2026',
   description: 'Download 3 Patti Tiger APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.3(1) - 49MB.',
   keywords: [
     'Download 3 Patti Tiger',
@@ -69,7 +69,7 @@ export default function DownloadPage() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.5",
-      "ratingCount": "600000",
+      "ratingCount": "500000",
       "bestRating": "5"
     },
     "downloadUrl": "https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183",
