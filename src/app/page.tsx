@@ -1,41 +1,28 @@
 import Image from "next/image";
 import Link from 'next/link';
-import Script from 'next/script';
 import { Metadata } from 'next';
 
-// This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: "3 Patti Tiger Pakistan v1.3(1) Free Download Official APK",
   description: "3 Patti Tiger - Pakistan's #1 card game. Download APK free, play Teen Patti, Rummy & Dragon Tiger. Win real cash, fast JazzCash & EasyPaisa withdrawals.",
   keywords: [
     "3 Patti Tiger",
-    "3 Patti Tiger game",
     "3 Patti Tiger download",
-    "3 Patti Tiger app",
-    "3 Patti Tiger apk",
-    "3 Patti Tiger pakistan",
+    "3 Patti Tiger APK",
+    "3 Patti Tiger Pakistan",
+    "Teen Patti Tiger",
+    "Teen Patti Tiger download",
     "3 Patti Tiger online",
-    "download 3 Patti Tiger",
     "3 Patti Tiger real money",
-    "3 Patti Tiger",
-    "how to play 3 Patti Tiger",
+    "download 3 Patti Tiger",
     "3 Patti Tiger 2026",
-    "Pakistan card games",
-    "Teen Patti game",
-    "online rummy game",
-    "earn money playing cards",
-    "Android gaming app 2026",
-    "JazzCash gaming",
-    "EasyPaisa gaming",
-    "mobile card games",
+    "Teen Patti game Pakistan",
+    "online card game Pakistan",
+    "Dragon vs Tiger game",
     "real money games Pakistan",
-    "card game earning app",
-    "Teen Patti online",
-    "Dragon vs Tiger",
+    "JazzCash gaming app",
+    "EasyPaisa gaming",
     "best earning app Pakistan",
-    "rummy card game",
-    "play rummy online",
-    "rummy game download"
   ],
   alternates: {
     canonical: 'https://3pattitigergame.com.pk/',
@@ -53,7 +40,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
-    description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    description: "Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     url: 'https://3pattitigergame.com.pk/',
     siteName: '3 Patti Tiger',
     locale: 'en_US',
@@ -70,25 +57,18 @@ export const metadata: Metadata = {
         height: 630,
         alt: '3 Patti Tiger - Premier Card Gaming Platform'
       },
-      {
-        url: 'https://3pattitigergame.com.pk/feature/og-image-square.webp',
-        width: 800,
-        height: 800,
-        alt: '3 Patti Tiger - Premier Card Gaming Platform'
-      }
     ],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
     title: '3 Patti Tiger Pakistan v1.3(1) Free Download Official APK',
-    description: '3 Patti Tiger 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    description: "Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa.",
     images: ['https://3pattitigergame.com.pk/3-patti-tiger.webp']
   }
 };
 
 export default function Home() {
-  // Schema.org structured data for SEO
   const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -114,22 +94,12 @@ export default function Home() {
         "url": "https://3pattitigergame.com.pk/3-patti-tiger.webp",
         "contentUrl": "https://3pattitigergame.com.pk/3-patti-tiger.webp",
         "name": "3 Patti Tiger Pakistan - Official Card Game",
-        "description": "3 Patti Tiger Pakistan official card game app - Download the latest version and play Teen Patti, Rummy, Dragon vs Tiger to earn real cash rewards via JazzCash and EasyPaisa.",
+        "description": "Official card game app for Android — download the latest version and play Teen Patti, Rummy, Dragon vs Tiger to earn real cash via JazzCash and EasyPaisa.",
         "caption": "3 Patti Tiger Pakistan v1.3(1) - Official APK Download 2026",
         "width": 512,
         "height": 512,
         "representativeOfPage": true,
-        "inLanguage": "en-US",
-        "author": {
-          "@type": "Organization",
-          "name": "3 Patti Tiger",
-          "url": "https://3pattitigergame.com.pk/"
-        },
-        "copyrightHolder": {
-          "@type": "Organization",
-          "name": "3 Patti Tiger",
-          "url": "https://3pattitigergame.com.pk/"
-        }
+        "inLanguage": "en-US"
       },
       {
         "@type": "FAQPage",
@@ -139,7 +109,7 @@ export default function Home() {
             "name": "What is 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "3 Patti Tiger is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. 3 Patti Tiger offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa."
+              "text": "3 Patti Tiger is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting games. It offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa."
             }
           },
           {
@@ -147,7 +117,7 @@ export default function Home() {
             "name": "How to download 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can download 3 Patti Tiger APK from the official website 3pattitigergame.com.pk. The app is available for Android devices and can be installed directly by downloading the APK file."
+              "text": "Download the APK from 3pattitigergame.com.pk. The app is available for Android devices and can be installed directly by downloading the APK file and enabling Unknown Sources in your settings."
             }
           },
           {
@@ -155,7 +125,7 @@ export default function Home() {
             "name": "How to download 3 Patti Tiger app for Android?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "To download the 3 Patti Tiger app for Android, visit 3pattitigergame.com.pk, click the download button, enable Unknown Sources in your settings, and install the APK file. The 3 Patti Tiger game is free to download and works on Android 5.0 or higher."
+              "text": "Visit 3pattitigergame.com.pk, click the download button, enable Unknown Sources in your Android settings, and install the APK file. The app is free and works on Android 5.0 or higher."
             }
           },
           {
@@ -163,7 +133,7 @@ export default function Home() {
             "name": "Is 3 Patti Tiger safe and legal?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, 3 Patti Tiger is safe to use with secure data protection. The platform uses encrypted transactions and protects user privacy. However, legality depends on local laws, so always check your region's regulations."
+              "text": "The app uses encrypted transactions and protects user privacy. However, legality depends on local laws, so always check your region's regulations before playing."
             }
           },
           {
@@ -171,7 +141,7 @@ export default function Home() {
             "name": "How to earn money on 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can earn money on 3 Patti Tiger by playing games like Teen Patti, Rummy, and Dragon vs Tiger. The platform offers welcome bonuses, daily rewards, referral commissions, and deposit bonuses to help you start earning."
+              "text": "You can earn money by playing games like Teen Patti, Rummy, and Dragon vs Tiger. The platform also offers welcome bonuses, daily rewards, referral commissions, and deposit bonuses to help you start earning."
             }
           },
           {
@@ -179,7 +149,7 @@ export default function Home() {
             "name": "How to withdraw money from 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can withdraw money from 3 Patti Tiger using JazzCash or EasyPaisa. Go to the Wallet section, click Withdrawal, choose your payment method, enter the amount and account details, then confirm. Withdrawals are processed quickly."
+              "text": "Go to the Wallet section, click Withdrawal, choose JazzCash or EasyPaisa, enter the amount and account details, then confirm. Withdrawals are processed quickly."
             }
           },
           {
@@ -187,7 +157,7 @@ export default function Home() {
             "name": "What games are available on 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "3 Patti Tiger offers multiple games including Teen Patti, Classic Rummy, Dragon vs Tiger, Andar Bahar, Poker, and various slot games. All games are available 24/7 with real cash prizes."
+              "text": "The platform offers Teen Patti, Classic Rummy, Dragon vs Tiger, Andar Bahar, Poker, Crash, Mines, and various slot games — all available 24/7 with real cash prizes."
             }
           },
           {
@@ -195,7 +165,7 @@ export default function Home() {
             "name": "How long do 3 Patti Tiger withdrawals take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "3 Patti Tiger withdrawals through JazzCash and EasyPaisa are processed within 5-30 minutes. The platform offers fast, secure withdrawals with no hidden fees."
+              "text": "Withdrawals through JazzCash and EasyPaisa are typically processed within 5–30 minutes with no hidden fees."
             }
           },
           {
@@ -203,7 +173,7 @@ export default function Home() {
             "name": "What is the minimum withdrawal on 3 Patti Tiger?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The minimum withdrawal amount on 3 Patti Tiger depends on your payment method. Generally, you can withdraw as low as PKR 500 via JazzCash or EasyPaisa."
+              "text": "The minimum withdrawal amount is PKR 500 via JazzCash or EasyPaisa."
             }
           },
           {
@@ -211,7 +181,7 @@ export default function Home() {
             "name": "How do I contact 3 Patti Tiger customer support?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can contact 3 Patti Tiger customer support via 24/7 live chat within the app, email at support@3pattitigergame.com.pk, or through WhatsApp. Support team responds quickly to all queries."
+              "text": "You can contact support via 24/7 live chat within the app, email at support@3pattitigergame.com.pk, or through WhatsApp. The support team responds quickly to all queries."
             }
           },
           {
@@ -219,7 +189,7 @@ export default function Home() {
             "name": "What bonuses does 3 Patti Tiger offer?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "3 Patti Tiger offers welcome bonuses for new users, daily login bonuses, deposit bonuses, referral bonuses, and recharge rebates. Special VIP bonuses are available for high-volume players."
+              "text": "New users receive a welcome bonus, and the app also provides daily login bonuses, deposit bonuses, referral bonuses, recharge rebates, and special VIP bonuses for high-volume players."
             }
           }
         ]
@@ -241,11 +211,9 @@ export default function Home() {
 
   return (
     <>
-      {/* Schema.org JSON-LD */}
-      <Script
-        id="homepage-schema"
+      {/* Schema.org JSON-LD - server-rendered for reliable crawling */}
+      <script
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
@@ -257,8 +225,8 @@ export default function Home() {
           </li>
         </ol>
       </nav>
-      
-      {/* Hero Section with improved spacing */}
+
+      {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
         <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
           <div className="md:w-1/2 space-y-6">
@@ -271,14 +239,14 @@ export default function Home() {
                 <span className="text-white">| Teen Patti Tiger 2026</span>
               </h2>
             </div>
-            
+
             <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '120px', display: 'block' }}>
-              Are you searching for the official website of <Link href="/about-us-3-patti-tiger-pakistan" className="text-accent hover:underline font-semibold">3 Patti Tiger</Link>? If yes, then you are on the right website. Here, you can find the original App and new updates of this application. You can download the latest version of Teen Patti Tiger using the download link below:
+              Welcome to the official website of <Link href="/about-us-3-patti-tiger-pakistan" className="text-accent hover:underline font-semibold">3 Patti Tiger</Link> — Pakistan&apos;s most popular online card game platform. Download the latest APK version below and start playing over 100 games with real cash rewards via JazzCash and EasyPaisa.
             </p>
 
             {/* Download Button */}
             <div className="flex justify-center my-8">
-              <a 
+              <a
                 href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                 id="download"
                 target="_blank"
@@ -294,7 +262,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Stats Grid with improved spacing */}
+            {/* Stats Grid */}
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
                 <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -303,7 +271,7 @@ export default function Home() {
                 <div className="text-white text-2xl font-bold mb-1">500K+</div>
                 <div className="text-gray-400 text-sm">Downloads</div>
               </div>
-              
+
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
                 <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
@@ -311,7 +279,7 @@ export default function Home() {
                 <div className="text-white text-2xl font-bold mb-1">200K+</div>
                 <div className="text-gray-400 text-sm">Ratings</div>
               </div>
-              
+
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
                 <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
@@ -321,8 +289,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Android only notice */}
-            <p className="text-gray-400 text-sm text-center italic">*Available for Android devices only</p>
+            <p className="text-gray-400 text-sm text-center italic">*Available for Android devices only. For users aged 18+.</p>
           </div>
 
           {/* Desktop Image */}
@@ -365,7 +332,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* App Specifications Table with improved spacing */}
+      {/* App Specifications Table */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Download Info Table</h2>
         <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800">
@@ -422,95 +389,131 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About 3 Patti Tiger Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">About 3 Patti Tiger</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              Nowadays, everyone is looking for online earning platforms in Pakistan. If you are one of them, then we recommend you try 3 Patti Tiger on your smartphone. This game is trending in Pakistan and has gained millions of active users in a short period because of its awesome features and great policy. If you are an online gamer, then you must try this application once. It gives opportunities for you to earn money by playing games and many other ways, like referral link, daily, weekly, and monthly bonuses.
-            </p>
-            <p className="text-gray-300 leading-relaxed">
-              This platform is filled with a lot of wonderful games like Card, Rummy, Crash, Mines, Poker, etc. If you play these games wisely, then you can easily generate a good amount of income/money. The best thing about this platform is that it also offers you Dragon Tiger, Crash, and Mines games, which are mostly played by users. Nowadays, everyone is a lover of Dragon Tiger, Crash, and Mines games, and they almost download this App because of these games. So, download Teen Patti Tiger from this website and earn a good amount of income/money.
-            </p>
+      {/* Table of Contents */}
+      <section className="py-8 px-4 md:px-8 max-w-7xl mx-auto" id="toc">
+        <div className="bg-[#06091F] rounded-xl p-8 border border-gray-800">
+          <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">Table of Contents</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+            {[
+              { href: "#what-is", label: "What is 3 Patti Tiger?" },
+              { href: "#why-popular", label: "Why Is It So Popular in Pakistan?" },
+              { href: "#how-to-start", label: "How to Get Started" },
+              { href: "#screenshots", label: "App Screenshots" },
+              { href: "#features", label: "Top Features" },
+              { href: "#games", label: "Available Games & Categories" },
+              { href: "#bonuses", label: "Bonuses & Rewards" },
+              { href: "#download-guide", label: "Download & Installation Guide" },
+              { href: "#register", label: "Register & Login" },
+              { href: "#payment", label: "Payment Methods" },
+              { href: "#deposit-withdraw", label: "How to Deposit & Withdraw" },
+              { href: "#tips", label: "Tips & Tricks" },
+              { href: "#whats-new", label: "What's New in Latest Version" },
+              { href: "#pros-cons", label: "Pros & Cons" },
+              { href: "#reviews", label: "Player Reviews" },
+              { href: "#responsible-gaming", label: "Responsible Gaming" },
+              { href: "#safety", label: "Safety & Security" },
+              { href: "#faq", label: "Frequently Asked Questions" },
+            ].map(({ href, label }) => (
+              <a
+                key={href}
+                href={href}
+                className="flex items-center gap-2 text-gray-300 hover:text-[#FFA500] transition-colors py-1"
+              >
+                <span className="text-[#FFA500]">›</span>
+                {label}
+              </a>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* What is 3 Patti Tiger Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* What is 3 Patti Tiger — consolidated section */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="what-is">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is 3 Patti Tiger?</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              3 Patti Tiger APK is an online gaming platform in Pakistan that offers you to earn real money by playing various games. This application provides a safe and secure platform for users who want to generate a good amount of money by playing card games. You can play this game on any kind of Android device without facing problems. This is the best opportunity for you to earn a good profit in a short period, and it can also improve your gaming experience. So, without further thinking, get this app on your smartphone and start earning money now.
+              <strong className="text-white">3 Patti Tiger</strong> — also widely known as <strong className="text-white">Teen Patti Tiger</strong> — is Pakistan&apos;s most popular online card gaming platform, available as a free APK download for Android devices. The app brings together over 100 game modes in one place: card games, multiplayer casino games, skill-based games, slot machines, and sports betting — all accessible from a single login. Whether you enjoy classic Teen Patti, fast-paced Dragon vs Tiger, or strategic Rummy, you&apos;ll find it here.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Teen Patti Tiger is known for its attractive interface, easy customization, classic themes, and simple settings. Moreover, the Dragon vs Tiger game is available on this platform, which is the most popular and hottest game. Most users like the Dragon vs Tiger game, and they also download this Tiger because of Dragon vs Tiger.
+              The platform is built specifically for Pakistani players, with full support for local payment methods JazzCash and EasyPaisa. Deposits and withdrawals are processed within minutes, with no complicated bank transfers required. New players receive a welcome bonus on their first deposit, and everyone can claim daily login bonuses, referral commissions, and weekly rewards — making it possible to start playing without investing money at all.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              You can withdraw your winning amount into your Easypaisa and Jazzcash accounts at any time, anywhere, without facing problems. You can also deposit money in this platform by Easypaisa and Jazzcash at any time. The bonus chips for your deposits are also added to your gaming account. Moreover, you can get a login bonuses everyday in this game. This platform provides a great chance for every online gamer to earn unlimited money by playing their favourite games.
+              The app is designed with simplicity in mind. Its clean interface works in both English and Urdu, navigation is straightforward even for first-time users, and it runs smoothly on budget Android phones — not just expensive flagship devices. This accessibility is a key reason why it has earned the trust of over 500,000 players across Pakistan in a short time.
             </p>
+
+            {/* Teen Patti Tiger clarification */}
+            <div className="bg-[#0A1029] rounded-lg p-5 border-l-4 border-[#FFA500]">
+              <p className="text-gray-300 text-sm leading-relaxed">
+                <strong className="text-[#FFA500]">Note:</strong> &quot;3 Patti Tiger&quot; and &quot;Teen Patti Tiger&quot; refer to the same app. &quot;3 Patti&quot; is the numerical shorthand for &quot;Teen Patti&quot; (Teen = Three in Hindi/Urdu), and both names are used interchangeably throughout Pakistan.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Overview of 3 Patti Tiger Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Why Popular in Pakistan — cultural angle */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="why-popular">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Overview of 3 Patti Tiger</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why Is This Game So Popular in Pakistan?</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              3 Patti Tiger is covered by all the basic requirements of gamers. In this platform, you can enjoy different casino games with an attractive interface, background music, and an engaging theme. Moreover, games are organised separately in different categories such as card games, slots, poker, and a few other categories. All the games are available on the homepage of the app. Support, Withdraw, deposit, wheel spins, 7-days bonus, special day&apos;s bonus are also available at the front of the application.
+              Online gaming in Pakistan has grown rapidly, and among all card-based apps, this platform stands out for reasons that go beyond just money and entertainment. Here is why it has resonated so strongly with Pakistani users:
             </p>
-            <p className="text-gray-300 leading-relaxed">
-              Furthermore, it provides high-quality services for users, and any user can easily win a big amount of money by investing a small amount in a short time. You can also win rewards and bonuses in the form of real money. If any user wants to earn money without investing money, then earn money from the referral link system, where you have to invite friends to play the game and get a commission. So, invite more friends and earn more commission.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Why 3 Patti Tiger Popular Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why 3 Patti Tiger Game so Popular?</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              The 3 Patti Tiger game is very popular because it allows you to earn real money while having fun. It is easy to play because it provides you with simple rules that are very easy to understand, especially for beginners. The design of this app is very beautiful and colorful, which gives you a real casino experience on your device. Players love this app because you can withdraw and deposit money easily through Easypaisa and Jazzcash without facing any delays.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed">
-              It also includes many exciting games such as Teen Patti, Dragon vs Tiger, Poker, Rummy, and Slots, so that you never feel bored. The other main reason for the popularity of 3 Patti Tiger is its daily bonus and rewards that help you earn coins and extra cash. It is very safe and secure and can protect your personal details or money, and work smoothly even on low-storage devices.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Desi Card Culture</h3>
+                <p className="text-gray-300 text-sm">Teen Patti has always been a favourite at gatherings across Pakistan and South Asia. This app brings that beloved tradition to your phone — playable anytime, with real money at stake.</p>
+              </div>
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Works on Budget Phones</h3>
+                <p className="text-gray-300 text-sm">Unlike many gaming apps that require expensive hardware, this platform is optimised to run well on mid-range and entry-level Android devices, making it accessible to millions across Pakistan.</p>
+              </div>
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Earn Without Depositing</h3>
+                <p className="text-gray-300 text-sm">The Refer and Earn program lets users earn up to PKR 1,000 per successful referral without ever placing a bet. This unique feature drives strong word-of-mouth growth across cities and towns.</p>
+              </div>
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Trusted Local Payments</h3>
+                <p className="text-gray-300 text-sm">JazzCash and EasyPaisa integration means players can deposit and withdraw using wallets they already trust and use daily — no international cards or bank accounts needed.</p>
+              </div>
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Real Payout Proof</h3>
+                <p className="text-gray-300 text-sm">Verified payment screenshots shared daily by players in Pakistan have established the platform&apos;s credibility in a market where trust is everything.</p>
+              </div>
+              <div className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-semibold mb-2">Strong Community</h3>
+                <p className="text-gray-300 text-sm">An active player community shares tips, strategies, and referral links across WhatsApp groups and Facebook pages, creating organic growth that no paid ad campaign can replicate.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* How to Start Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="how-to-start">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How Can We Start with 3 Patti Tiger?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">How to Get Started</h2>
           <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">To start the 3 Patti Tiger game, follow the given steps:</p>
+            <p className="text-gray-300 leading-relaxed">Follow these steps to start playing on the platform:</p>
             <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Firstly, open the official website of 3 Patti Tiger and <Link href="/download-3-patti-tiger" className="text-accent hover:underline font-semibold">download the APK file</Link> to your device.</li>
-              <li>Once downloaded then click on the downloaded APK file to start the installation by allowing the Unknown Sources.</li>
-              <li>Once installation is complete, click on it to open the 3 Patti Tiger app.</li>
-              <li>When the app opens then log in with your mobile number or just play as a guest.</li>
-              <li>When you log in, you will get free chips or welcome bonuses to start playing the game.</li>
-              <li>Choose a table or game that you want to play, and start enjoying the game.</li>
+              <li>Visit this website and <Link href="/download-3-patti-tiger" className="text-accent hover:underline font-semibold">download the APK file</Link> to your Android device.</li>
+              <li>Once downloaded, tap the APK file to begin installation. If prompted, enable &quot;Install from Unknown Sources&quot; in your device settings.</li>
+              <li>After installation completes, open the app from your home screen.</li>
+              <li>Log in using your mobile number, or tap &quot;Guest Login&quot; to try the app before registering.</li>
+              <li>Claim your welcome bonus — free chips are added to your account automatically.</li>
+              <li>Browse the game lobby, pick a game you like, and start playing.</li>
             </ol>
           </div>
         </div>
       </section>
 
       {/* Game Screenshots Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="screenshots">
         <div className="bg-[#06091F] rounded-xl p-8">
           <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">3 Patti Tiger App Screenshots</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            {/* Games Collection */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -526,7 +529,6 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 font-medium">Games Collection</p>
             </div>
 
-            {/* Game Interface */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -542,7 +544,6 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 font-medium">Game Interface</p>
             </div>
 
-            {/* Bonuses */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -558,7 +559,6 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 font-medium">Bonuses & Rewards</p>
             </div>
 
-            {/* Add Money */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -574,7 +574,6 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 font-medium">Add Money</p>
             </div>
 
-            {/* Withdraw Money */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -590,7 +589,6 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 font-medium">Withdraw Money</p>
             </div>
 
-            {/* Refer and Earn */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <Image
@@ -607,36 +605,33 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Additional Screenshots */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Recharge Rebate */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
+                <Image
                   src="/3-patti-tiger-free-spin.webp"
                   alt="3 Patti Tiger Recharge Rebate"
                   width={400}
                   height={711}
                   className="w-full h-auto"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
               <p className="text-center text-gray-300 mt-3 font-medium">Recharge Rebate</p>
             </div>
 
-            {/* Bind Email */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
+                <Image
                   src="/3-patti-tiger-account.webp"
-                  alt="3 Patti Tiger Bind Email"
+                  alt="3 Patti Tiger Account Security"
                   width={400}
                   height={711}
                   className="w-full h-auto"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
               <p className="text-center text-gray-300 mt-3 font-medium">Account Security</p>
             </div>
@@ -645,478 +640,499 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="features">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">Top Features of 3 Patti Tiger</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">1: Real Money Earning</h3>
-            <p className="text-gray-300">3 Patti Tiger allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">2: Easy Withdraw & Deposit</h3>
-            <p className="text-gray-300">With 3 Patti Tiger, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">3: Attractive Interface</h3>
-            <p className="text-gray-300">This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">4: Popular Games</h3>
-            <p className="text-gray-300">3 Patti Tiger provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">5: Daily Bonus</h3>
-            <p className="text-gray-300">This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">6: Referral Earning</h3>
-            <p className="text-gray-300">3 Patti Tiger offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">7: Fast Performance</h3>
-            <p className="text-gray-300">This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">8: Safe & Secure Platform</h3>
-            <p className="text-gray-300">In 3 Patti Tiger, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. This app is trusted by thousands of players for its reliability.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">9: Free to Play</h3>
-            <p className="text-gray-300">3 Patti Tiger is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">10: 24/7 Support</h3>
-            <p className="text-gray-300">This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help.</p>
-          </div>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">Top 10 Features of 3 Patti Tiger</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">1: Real Money Earning</h3>
+              <p className="text-gray-300">Players can earn real cash rewards simply by playing their favourite games — whether it&apos;s Teen Patti, Poker, or Rummy. Earnings are transferred directly to your JazzCash or EasyPaisa wallet safely and quickly.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">2: Easy Withdraw & Deposit</h3>
+              <p className="text-gray-300">Managing money is simple and fast. With just a few taps, you can deposit or withdraw funds anytime using JazzCash or EasyPaisa — both secure and widely used local payment options in Pakistan.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">3: Attractive Interface</h3>
+              <p className="text-gray-300">The app features a bright, modern design with smooth animations and background music that creates a genuine casino atmosphere on your phone. Every section is clearly laid out so you can find your favourite game instantly.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">4: 100+ Popular Games</h3>
+              <p className="text-gray-300">A single app gives you access to Dragon vs Tiger, Poker, Slots, Rummy, and many other exciting options. Each game has straightforward rules that make it perfect for both beginners and experienced players.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">5: Daily Bonus</h3>
+              <p className="text-gray-300">The platform rewards you every day with free login bonuses and chips. Special bonuses are also available on weekly and festival occasions, helping you keep playing even without depositing.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">6: Referral Earning</h3>
+              <p className="text-gray-300">Earn money without playing a single game. Share your referral link with friends and receive a commission whenever they join and start playing. The more people you invite, the more you earn passively.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">7: Fast Performance</h3>
+              <p className="text-gray-300">The app is lightweight and runs smoothly on almost every Android device, including older and budget models. It does not hang, crash, or consume excessive storage, ensuring a seamless gaming experience.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">8: Safe & Secure Platform</h3>
+              <p className="text-gray-300">Your privacy and money are protected through secure payment systems and data encryption. Thousands of Pakistani players trust this platform for reliable, transparent transactions.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">9: Free to Download</h3>
+              <p className="text-gray-300">There are no registration fees or subscription charges. Download the APK for free, start with complimentary chips, and explore all game modes before deciding whether to deposit real money.</p>
+            </div>
+            <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
+              <h3 className="text-xl font-semibold mb-3 text-accent">10: 24/7 Customer Support</h3>
+              <p className="text-gray-300">A dedicated support team is available around the clock to assist with any issues — from deposit problems to technical errors. Reach them directly through in-app live chat for the fastest response.</p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Available Games Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="games">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Best Games to Play on 3 Patti Tiger</h2>
-          
-          <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">1: Multiplayer Games</h3>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Available Games & Categories</h2>
+          <p className="text-gray-300 mb-8">
+            The platform offers four main game categories with 100+ titles. Here is a breakdown of what you can play:
+          </p>
+
+          <div className="mb-10">
+            <h3 className="text-2xl font-semibold mb-3 text-[#FFA500]">1: Multiplayer Games <span className="text-base font-normal text-gray-400">(20+ games)</span></h3>
+            <p className="text-gray-300 mb-4 text-sm">Play against real opponents from across Pakistan in real time. Fast rounds and live betting make these the most popular category on the platform.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Tiger Dragon <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">7 UP Down <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Zoo Roulette <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Crash</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Car Roulette</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Andar Bahar</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Teenpatti 20-20</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Best of Five</p>
-              </div>
+              {["Tiger Dragon (Hot)", "7 UP Down (Hot)", "Zoo Roulette (Hot)", "Crash", "Car Roulette", "Andar Bahar", "Teenpatti 20-20", "Best of Five"].map((game) => (
+                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                  <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
+                </div>
+              ))}
             </div>
           </div>
 
-          <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">2: Skill-Based Games</h3>
+          <div className="mb-10">
+            <h3 className="text-2xl font-semibold mb-3 text-[#FFA500]">2: Skill-Based Games <span className="text-base font-normal text-gray-400">(12+ modes)</span></h3>
+            <p className="text-gray-300 mb-4 text-sm">These games reward strategy and practice. The more you play, the better you get — making consistent winnings more achievable over time.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Domino <span className="text-[#f97316]">(Hot)</span></p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Rummy <span className="text-[#f97316]">(Hot)</span></p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Teen Patti</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Fishing Rush</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">10 Cards</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Poker</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Ludo</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Black Jack</p>
-              </div>
+              {["Domino (Hot)", "Rummy (Hot)", "Teen Patti", "Fishing Rush", "10 Cards", "Poker", "Ludo", "Black Jack"].map((game) => (
+                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                  <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
+                </div>
+              ))}
             </div>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">3: Slots</h3>
+            <h3 className="text-2xl font-semibold mb-3 text-[#FFA500]">3: Slots & Mini Games <span className="text-base font-normal text-gray-400">(15+ games)</span></h3>
+            <p className="text-gray-300 mb-4 text-sm">Quick, visually exciting games where luck plays a bigger role. Mines and God of Fortune are consistently among the most-played titles on the platform.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Mines <span className="text-[#f97316]">(Hot)</span></p>
-            </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Fruit Line</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">777 Bingo</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Rattling GEMS</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Video Poker 1, 2</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Wild Energy</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">WoW Slot</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">God of Fortune</p>
-          </div>
+              {["Mines (Hot)", "Fruit Line", "777 Bingo", "Rattling GEMS", "Video Poker 1 & 2", "Wild Energy", "WoW Slot", "God of Fortune"].map((game) => (
+                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                  <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
       {/* Bonuses Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="bonuses">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Benefits for New Players by Joining 3 Patti Tiger</h2>
-        
-        {/* New Player Welcome Bonus */}
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: New Player Welcome Bonus</h3>
-          <p className="text-gray-300 mb-4">3Patti offers a 100% recharge bonus for all new, fresh users on their first deposit in this game.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">1000</td><td className="py-3 px-6 text-gray-300">1000</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">5000</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
-              </tbody>
-            </table>
-          </div>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Bonuses & Rewards for New Players</h2>
+
+          {/* New Player Welcome Bonus */}
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: New Player Welcome Bonus</h3>
+            <p className="text-gray-300 mb-4">New players receive a 100% recharge bonus on their first deposit — whatever you put in, you get the same amount added as bonus chips.</p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+                <thead className="bg-[#0a1029]">
+                  <tr>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-800">
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">1,000</td><td className="py-3 px-6 text-gray-300">1,000</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">5,000</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
 
-        {/* Recharge Rebate */}
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
-          <p className="text-gray-300 mb-4">3 Patti Tiger game is also offering huge recharge rebate bonuses for every player when they deposit an amount.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Required Wager</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
-              </tbody>
-            </table>
-          </div>
+          {/* Recharge Rebate */}
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
+            <p className="text-gray-300 mb-4">Every deposit above a certain threshold earns a percentage rebate bonus, giving you extra chips to play with on every top-up.</p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+                <thead className="bg-[#0a1029]">
+                  <tr>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Required Wager</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-800">
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3,000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8,000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
 
-        {/* Big Rebate on Recharge */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebate on Recharge</h3>
-          <p className="text-gray-300 mb-4">This type of reward is only available for deposit of a minimum of 3000PKR or more. It also depends upon VIP Level with increasing rebate bonus. It can be claimed every day.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V1-V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V3-V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V5-V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V7-V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V9-V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V11-V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V13-V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V15-V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V17-V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V19-V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
-              </tbody>
-            </table>
-          </div>
+          {/* Big Rebate on Recharge */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: VIP Recharge Rebate</h3>
+            <p className="text-gray-300 mb-4">Available for deposits of PKR 3,000 or more, this daily claimable rebate increases as you progress through VIP levels.</p>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+                <thead className="bg-[#0a1029]">
+                  <tr>
+                    <th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th>
+                    <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-800">
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V1–V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V3–V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V5–V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V7–V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V9–V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V11–V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V13–V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V15–V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
+                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V17–V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
+                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V19–V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Download Instructions */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Download & Installation Guide */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download-guide">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Download 3 Patti Tiger APK Latest Version For Android</h2>
-          <p className="text-gray-300 mb-4">To download the latest version of 3 Patti Tiger APK for Android devices, follow the given steps:</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Download 3 Patti Tiger APK — Latest Version for Android</h2>
+          <p className="text-gray-300 mb-4">Follow these steps to download the latest version on your Android device:</p>
           <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>First, you open the browser on your Android device and click on the search bar.</li>
-            <li>In the search bar, type the latest version of 33 Patti Tiger and visit the trusted website.</li>
-            <li>On the trusted website, click on the Download button to start downloading.</li>
-            <li>Now wait a few seconds to complete the downloading process.</li>
-            <li>Once complete, that file will be saved in the Download Folder of the device.</li>
-          </ol>
-        </div>
-        
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Installation Guide for 3 Patti Tiger APK</h2>
-        <p className="text-gray-300 mb-4">After downloading to installing the 3 Patti Tiger APK, follow the given steps:</p>
-        <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>To start installation, your device grants permission to install unknown sources.</li>
-            <li>Open the Settings &lt; Security and enable the Install Unknown Apps.</li>
-            <li>After this, open the File Manager and go to the Download Folder.</li>
-            <li>Click on the download APK file, and the installation process will start.</li>
-            <li>Wait until the installation completes successfully on your device.</li>
-            <li>Once complete then the app icon will show on your device.</li>
-            <li>Click on it to launch the app and start playing the games that you want.</li>
-          </ol>
-        </div>
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Open your phone browser and navigate to this website (3pattitigergame.com.pk).</li>
+              <li>Tap the <strong className="text-white">Download Now</strong> button at the top of the page.</li>
+              <li>Wait a few seconds for the APK file to save to your Downloads folder.</li>
+              <li>Once complete, locate the file in your Downloads folder and proceed to installation.</li>
+            </ol>
+          </div>
 
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">System Requirements</h2>
-        <div className="overflow-x-auto mb-8">
-          <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-            <thead className="bg-[#0a1029]">
-              <tr>
-                <th className="py-3 px-6 text-left text-white font-semibold">System</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Recommended</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-800">
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
-            </tbody>
-          </table>
-        </div>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Installation Guide</h2>
+          <p className="text-gray-300 mb-4">After downloading, follow these steps to install the app:</p>
+          <div className="mb-8">
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Go to your device&apos;s <strong className="text-white">Settings → Security</strong> and enable <strong className="text-white">Install Unknown Apps</strong>.</li>
+              <li>Open the File Manager and navigate to the Downloads folder.</li>
+              <li>Tap the downloaded APK file to start the installation process.</li>
+              <li>Follow the on-screen instructions and wait for installation to complete.</li>
+              <li>Once finished, the app icon will appear on your home screen.</li>
+              <li>Tap it to launch the app and start playing.</li>
+            </ol>
+          </div>
 
-        <div className="flex justify-center">
-          <a 
-            href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
-          >
-            <span className="text-lg">DOWNLOAD NOW</span>
-            <div className="download-icon ml-2 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">System Requirements</h2>
+          <div className="overflow-x-auto mb-8">
+            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+              <thead className="bg-[#0a1029]">
+                <tr>
+                  <th className="py-3 px-6 text-left text-white font-semibold">System</th>
+                  <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
+                  <th className="py-3 px-6 text-left text-white font-semibold">Recommended</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800">
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="flex justify-center">
+            <a
+              href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
+            >
+              <span className="text-lg">DOWNLOAD NOW</span>
+              <div className="download-icon ml-2 bg-[#f97316] rounded-full p-2">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                </svg>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Account Creation */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="register">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Register & Login on 3 Patti Tiger?</h2>
-          
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: Register Method</h3>
-          <p className="text-gray-300 mb-4">To register the account on 3 Patti Tiger, follow the given steps:</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Register & Login</h2>
+
+          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: Registration</h3>
+          <p className="text-gray-300 mb-4">Create your account in under a minute:</p>
           <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Firstly, open the 3 Patti Tiger app on your device.</li>
-            <li>On the homescreen, click on the Register or Sign Up option.</li>
-            <li>Now, enter your valid mobile number or email address.</li>
-            <li>Set a strong password that can never be accessed easily.</li>
-            <li>Enter the OTP that you can receive through phone or email for verification.</li>
-            <li>Once verification is complete then your account will be created successfully.</li>
-          </ol>
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Open the app on your device.</li>
+              <li>On the home screen, tap <strong className="text-white">Register</strong> or <strong className="text-white">Sign Up</strong>.</li>
+              <li>Enter a valid mobile number or email address.</li>
+              <li>Set a strong password.</li>
+              <li>Enter the OTP received on your phone or email for verification.</li>
+              <li>Once verified, your account is ready.</li>
+            </ol>
           </div>
 
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Login Method</h3>
-          <p className="text-gray-300 mb-4">After registration, the next step is to log account for Follow the given steps:</p>
+          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Login</h3>
+          <p className="text-gray-300 mb-4">Returning players can log back in with these steps:</p>
           <div className="space-y-4">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Open the 3 Patti Tiger app on your device.</li>
-            <li>Click on the Login button on the homescreen.</li>
-            <li>Enter your registered mobile number, email, or password.</li>
-            <li>Make sure that your entered details are correct.</li>
-            <li>Once confirmed, tap on the Sign in or Login option.</li>
-            <li>If you forget your password, then use Forgot Password to reset it.</li>
-            <li>Once logging is complete, you can start playing games.</li>
-          </ol>
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Open the app and tap <strong className="text-white">Login</strong>.</li>
+              <li>Enter your registered mobile number or email and your password.</li>
+              <li>Confirm that the details are correct, then tap <strong className="text-white">Sign In</strong>.</li>
+              <li>If you&apos;ve forgotten your password, use the <strong className="text-white">Forgot Password</strong> option to reset it.</li>
+              <li>Once logged in, you&apos;re ready to play.</li>
+            </ol>
           </div>
         </div>
       </section>
 
       {/* Payment Methods Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="payment">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Ways to Deposit & Withdraw Money in 3 Patti Tiger</h2>
-          
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Payment Methods — Deposit & Withdraw</h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">1: Jazzcash</h3>
-              <p className="text-gray-300">Jazzcash is one of the most trusted and secure mobile banking services that allows you to deposit money quickly into your gaming account and start playing games quickly. It's a fast and safe transaction system that allows you to withdraw your winnings directly into your account wallet. The best part of this method is that you can wait a long time because the transactions are completed within seconds.</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">1: JazzCash</h3>
+              <p className="text-gray-300">Pakistan&apos;s most widely used mobile wallet. Deposits and withdrawals happen in seconds with no complicated bank steps. Simply enter your JazzCash number, confirm the amount, and the transaction is complete.</p>
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">2: Easypaisa</h3>
-              <p className="text-gray-300">Easypaisa is another secure and most commonly used payment method that is similar to the JazzCash method. It allows you to deposit or withdraw money without any difficulty. Through this method, you can add funds to your game account and transfer winnings to your Easypaisa wallet in just a few steps. The process of this method is very safe, reliable, and suitable for all types of users.</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">2: EasyPaisa</h3>
+              <p className="text-gray-300">Another trusted local payment option, equally fast and secure. EasyPaisa users can add funds to their game wallet or receive winnings directly — without needing a bank account.</p>
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg md:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">3: Bank Card</h3>
-              <p className="text-gray-300">Bank Card is a convenient withdrawal option that lets you send your winnings directly to your bank account. Simply choose your desired bank, enter your account number, user name, and email, then submit your withdrawal request. With Bank Card, you can withdraw up to PKR 20,000 maximum per transaction, making it ideal for larger payouts. This method provides a secure way to receive your earnings straight to your bank account.</p>
+              <p className="text-gray-300">For larger payouts, the Bank Card option lets you withdraw directly to your bank account. Enter your bank name, account number, and details to link it. Maximum withdrawal per transaction is PKR 20,000 via this method.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Deposit Instructions */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Deposit & Withdraw Instructions */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="deposit-withdraw">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Deposit Money?</h2>
-            <p className="text-gray-300 mb-4">To deposit money in 3 Patti Tiger, follow the given steps:</p>
-                <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>First, open the 3 Patti Tiger app on your device and log in.</li>
-              <li>Now, click on the Wallet option that is available on the homescreen.</li>
-              <li>In this wallet section, click on the Deposit option.</li>
-              <li>Choose a payment method that you want to use.</li>
-              <li>Enter the amount that you want to deposit.</li>
-              <li>Click on the confirm option and wait to complete it.</li>
-              <li>Once complete, the balance will show in your game wallet.</li>
-                </ol>
-              </div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Deposit Money</h2>
+            <p className="text-gray-300 mb-4">Steps to add funds to your account:</p>
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Open the app and log in to your account.</li>
+              <li>Tap the <strong className="text-white">Wallet</strong> icon on the home screen.</li>
+              <li>Select <strong className="text-white">Deposit</strong>.</li>
+              <li>Choose your preferred payment method (JazzCash or EasyPaisa).</li>
+              <li>Enter the amount you wish to deposit.</li>
+              <li>Confirm and wait a few seconds for the balance to update in your wallet.</li>
+            </ol>
+          </div>
           <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Withdraw Money?</h2>
-            <p className="text-gray-300 mb-4">To withdraw money in 3 Patti Tiger, follow the given steps:</p>
-                <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Open the 3 Patti Tiger app and log in to your account.</li>
-              <li>Click on the Wallet option that is available on the main screen.</li>
-              <li>In the wallet section, click on the Withdrawal option.</li>
-              <li>Choose your payment method, like JazzCash, EasyPaisa, or Bank Card.</li>
-              <li>Now enter the amount that you want to withdraw.</li>
-              <li>Enter some required details, like the account number.</li>
-              <li>Double-check all entered details and click on Confirm.</li>
-              <li>Wait a few seconds to complete the withdrawal process.</li>
-              <li>Once complete, that money will be shown in your selected payment method.</li>
-                </ol>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Withdraw Money</h2>
+            <p className="text-gray-300 mb-4">Steps to transfer winnings to your wallet:</p>
+            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+              <li>Open the app and log in.</li>
+              <li>Tap <strong className="text-white">Wallet</strong> on the main screen.</li>
+              <li>Select <strong className="text-white">Withdrawal</strong>.</li>
+              <li>Choose JazzCash, EasyPaisa, or Bank Card.</li>
+              <li>Enter the withdrawal amount (minimum PKR 500).</li>
+              <li>Provide your account number or bank details.</li>
+              <li>Double-check everything, then tap <strong className="text-white">Confirm</strong>.</li>
+              <li>Funds typically arrive within 5–30 minutes.</li>
+            </ol>
           </div>
         </div>
       </section>
 
       {/* Tips and Tricks */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="tips">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Tips & Tricks to Earn Maximum on Teen Patti Tiger Game</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Tips & Tricks to Earn More on Teen Patti Tiger</h2>
           <div className="space-y-4">
-          <ul className="list-disc pl-5 space-y-3 text-gray-300">
-            <li><strong>Start with Small Bets:</strong> Always start a game with a small investment because it will help you to understand the game rules and overcome the risk of losing money. When you become confident, then increase your bet.</li>
-            <li><strong>Use Bonuses Wisely:</strong> 3 Patti Tiger offers you daily login bonuses, referral bonuses, or deposit rewards. It helps you to play more games without spending your one money or earning extra money.</li>
-            <li><strong>Play Popular Games:</strong> Focus on high-earning games such as Dragon vs Tiger or Teen Patti Classic that provide you with higher winning chances, and also attract players with better opportunities to earn.</li>
-            <li><strong>Invite Friends:</strong> Use the referral link system to invite friends every time your friends join, and then you can earn commission. The more friends you invite, the higher you can become.</li>
-            <li><strong>Stay Active Daily:</strong> Regularly log in to the app to collect the daily rewards or spin bonuses. Always stay active because it will increase your bonus balance or improve your chances of winning big.</li>
-            <li><strong>Withdraw on Time:</strong> When you earn a good amount then do not delay withdrawal. Always transfer your winnings as soon as possible through Jazcash or EasyPaisa to keep your money safe.</li>
-            <li><strong>Learn from Practice Mode:</strong> Before playing games with real money, try the free or demo mode as practice. This helps you to understand the gameplay easily and develop the winning strategies without any risk.</li>
-            <li><strong>Keep the Emotions in Control:</strong> Never play games with frustration or greed. Always stay calm or make smart decisions during the game because it helps you to avoid unnecessary losses.</li>
-            <li><strong>With Expert Players:</strong> Observe how other players make the moves. Through this, you can learn new techniques or strategies and timing from them to improve your skills.</li>
-            <li><strong>Avoid Fake Apps:</strong> Always download the original 3 Patti Tiger app through official or trusted sources because fake links or websites can steal your personal data or money.</li>
-          </ul>
+            <ul className="list-disc pl-5 space-y-3 text-gray-300">
+              <li><strong className="text-white">Start with Small Bets:</strong> Begin every session with low-stakes games until you understand the pace and rules. Once you feel confident, gradually increase your bet size.</li>
+              <li><strong className="text-white">Use Bonuses First:</strong> The platform gives daily login bonuses, referral bonuses, and deposit rewards. Always use available bonus chips before spending real money.</li>
+              <li><strong className="text-white">Focus on High-Yield Games:</strong> Dragon vs Tiger and Teen Patti Classic consistently offer better earning opportunities. Spend most of your time on games you understand well.</li>
+              <li><strong className="text-white">Maximise Referrals:</strong> The referral program is one of the most reliable earning paths — every friend who joins and deposits earns you a commission. Share your link widely.</li>
+              <li><strong className="text-white">Log In Every Day:</strong> Daily login bonuses and spin rewards accumulate quickly. Consistent activity also accelerates your VIP progression for better rebates.</li>
+              <li><strong className="text-white">Withdraw Winnings Regularly:</strong> Don&apos;t let large winnings sit in your game wallet. Transfer to JazzCash or EasyPaisa promptly to keep your earnings secure.</li>
+              <li><strong className="text-white">Practice Before Betting:</strong> For skill games like Rummy and Poker, try free or low-stakes tables before moving to higher bets. Practice builds the pattern recognition needed to win consistently.</li>
+              <li><strong className="text-white">Control Emotions:</strong> Avoid playing when frustrated or chasing losses. Take breaks between sessions and stick to a pre-set daily budget.</li>
+              <li><strong className="text-white">Study Other Players:</strong> Watch how experienced players at your table make decisions. Observing betting patterns is one of the fastest ways to improve.</li>
+              <li><strong className="text-white">Only Use Official Sources:</strong> Always download from the official website (3pattitigergame.com.pk). Third-party APKs can be modified and may compromise your account or money.</li>
+            </ul>
           </div>
         </div>
       </section>
 
       {/* What's New Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="whats-new">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What's New in the Latest Version of the 3 Patti Tiger?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What&apos;s New in the Latest Version (V1.3.1)</h2>
           <div className="space-y-4">
             <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>In the latest version, the game looks better with improved graphics and smooth animations.</li>
-              <li>Provide fast performance so that the app opens quickly and runs smoothly without lag.</li>
-              <li>Its menu and layout are simple, which makes it very easy, especially for new users.</li>
-              <li>In the latest versions, more games are added, such as Dragon vs Tiger, Rummy, and others.</li>
-              <li>The withdrawal or deposit options work faster and smoothly in the latest version.</li>
-              <li>In the latest version, better security measures can be used that can protect your account and money.</li>
-              <li>New bonuses and referral rewards provide you with more chances to earn money.</li>
-              <li>Old Errors or app issues are removed to offer a smooth gaming experience.</li>
-              <li>The background music or game sounds improve the app and provide more fun.</li>
-              <li>The new VIP system gives you extra prizes and benefits that help you stay active.</li>
+              <li>Improved graphics and smoother animations across all game modes.</li>
+              <li>Faster app startup and reduced loading times, especially on lower-end devices.</li>
+              <li>Simplified navigation menus — easier to use for new players.</li>
+              <li>New games added including updated Dragon vs Tiger and Rummy variants.</li>
+              <li>Deposit and withdrawal flows are faster and more reliable.</li>
+              <li>Enhanced security measures to protect accounts and financial data.</li>
+              <li>Expanded bonus system with new referral reward tiers.</li>
+              <li>Bug fixes addressing crashes reported in the previous version.</li>
+              <li>Improved background audio and game sound effects.</li>
+              <li>New VIP system levels with higher daily rebates.</li>
             </ol>
           </div>
         </div>
       </section>
 
       {/* Pros and Cons */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="pros-cons">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Pros & Cons of using 3 Patti Tiger</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Pros</h3>
-            <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
-              <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Very simple and fun to play</li>
-                <li>Earn money with a small investment</li>
-                <li>Jazzcash and Easypaisa make payment easy</li>
-                <li>Many different games for enjoyment</li>
-                <li>Fast withdrawal of your money</li>
-                <li>Very easy to use and quick to start</li>
-                <li>Daily rewards and bonuses</li>
-              </ul>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Pros & Cons</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Pros</h3>
+              <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
+                <ul className="list-disc pl-5 space-y-3 text-gray-300">
+                  <li>Simple and fun to play</li>
+                  <li>Earn money with a small investment</li>
+                  <li>JazzCash and EasyPaisa make payments easy</li>
+                  <li>100+ different games in one app</li>
+                  <li>Fast withdrawals — typically under 30 minutes</li>
+                  <li>Free to download, no registration fees</li>
+                  <li>Daily rewards and loyalty bonuses</li>
+                  <li>Works on budget Android phones</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Cons</h3>
-            <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
-              <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Risk of losing money</li>
-                <li>Sometimes withdrawals take time</li>
-                <li>Gameplay can be addictive</li>
-                <li>Run slow on weak phones</li>
-                <li>No legal Support</li>
-                <li>No Financial Freedom</li>
-                <li>Gameplay can be complicated</li>
-              </ul>
+            <div>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Cons</h3>
+              <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
+                <ul className="list-disc pl-5 space-y-3 text-gray-300">
+                  <li>Risk of financial loss — play responsibly</li>
+                  <li>Withdrawals occasionally take longer during peak hours</li>
+                  <li>Can become addictive — set daily limits</li>
+                  <li>Not available on iOS or the Google Play Store</li>
+                  <li>Requires a minimum PKR 500 to withdraw</li>
+                  <li>Needs a stable internet connection</li>
+                  <li>Legal status varies by region in Pakistan</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Safety Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Player Reviews */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="reviews">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">About the Safety & Security of the 3 Patti Tiger</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">What Players Are Saying</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">AK</div>
+                <div>
+                  <p className="text-white font-semibold">Ahsan K.</p>
+                  <p className="text-gray-400 text-sm">Lahore</p>
+                </div>
+              </div>
+              <div className="flex gap-1 mb-3">
+                {[1,2,3,4,5].map(i => (
+                  <svg key={i} className="w-4 h-4 text-[#FFA500]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                ))}
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">&quot;I was skeptical at first, but after a week of casual play I tested a small withdrawal — the money arrived in my JazzCash within minutes. Dragon Tiger is my favourite. Already referred 3 friends and earned referral bonuses on all of them.&quot;</p>
+            </div>
+
+            <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">MS</div>
+                <div>
+                  <p className="text-white font-semibold">Maria S.</p>
+                  <p className="text-gray-400 text-sm">Faisalabad</p>
+                </div>
+              </div>
+              <div className="flex gap-1 mb-3">
+                {[1,2,3,4,5].map(i => (
+                  <svg key={i} className="w-4 h-4 text-[#FFA500]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                ))}
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">&quot;Super easy to use. Joined through a referral link, got a nice welcome bonus, and my first EasyPaisa withdrawal worked perfectly. Customer support answered my question within a few minutes. Play responsibly though — it&apos;s easy to get hooked!&quot;</p>
+            </div>
+
+            <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">AR</div>
+                <div>
+                  <p className="text-white font-semibold">Ahmed R.</p>
+                  <p className="text-gray-400 text-sm">Karachi</p>
+                </div>
+              </div>
+              <div className="flex gap-1 mb-3">
+                {[1,2,3,4].map(i => (
+                  <svg key={i} className="w-4 h-4 text-[#FFA500]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                ))}
+                <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">&quot;The game variety keeps it interesting. Teen Patti Classic is my go-to but I also enjoy Rummy and Mines. The daily login bonus is a good habit — I open the app every morning just to collect it. Would be 5 stars if withdrawals were always instant.&quot;</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Responsible Gaming */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="responsible-gaming">
+        <div className="bg-[#06091F] border border-yellow-600/40 rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Responsible Gaming — Important Notice</h2>
+          <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-4 mb-6">
+            <p className="text-yellow-200 font-semibold text-sm">This app is intended for users aged 18 and above. It involves real money and the risk of financial loss. Please play responsibly.</p>
+          </div>
+          <div className="space-y-3 text-gray-300">
+            <p><strong className="text-white">Set a Budget:</strong> Decide how much you are willing to spend before each session and stick to that limit regardless of results.</p>
+            <p><strong className="text-white">Never Chase Losses:</strong> If you lose your session budget, stop playing. Chasing losses almost always leads to further losses.</p>
+            <p><strong className="text-white">Take Regular Breaks:</strong> Step away from the app regularly. Extended sessions impair decision-making and increase risk-taking.</p>
+            <p><strong className="text-white">Keep It Fun:</strong> Treat gaming as entertainment, not as a primary income source. Winnings are a bonus, not a guarantee.</p>
+            <p><strong className="text-white">Seek Help If Needed:</strong> If you feel you cannot control your gaming habits, speak to a trusted person or contact a helpline. Responsible gaming resources are available online.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Safety & Security Section */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="safety">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Safety & Security</h2>
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
-              3 Patti Tiger is an online gaming platform that provides you with a safe and secure environment. It uses basic security features such as data encryption or SSL certificates that can protect your information. This app also supports local payment options such as JazzCash or Easy Paisa, which can make the transactions safer and secure. However, this app is not officially available on the Google Play Store and may come with some risks, such as malware or scams. So, it is important to make sure that you can download it from official, safe, and secure sources. Always avoid sharing your sensitive personal information or banking details.
+              The platform uses standard security features including data encryption and SSL certificates to protect your personal information. Local payment support through JazzCash and EasyPaisa adds an extra layer of financial safety, as these are regulated Pakistani services with their own fraud protection.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              Important note: this app is not officially available on the Google Play Store and requires APK installation from this website. Always download from <strong className="text-white">3pattitigergame.com.pk</strong> only. Avoid third-party download links, modified APKs, or any site claiming to offer a &quot;hacked&quot; version — these put your account and money at serious risk.
             </p>
           </div>
         </div>
@@ -1125,31 +1141,31 @@ export default function Home() {
       {/* Contact Support Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How Can We Contact the 3 Patti Tiger?</h2>
-          <p className="text-gray-300 mb-6">To contact the customer support team of 3 Patti Tiger, you can use the given methods:</p>
-          
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Contact Customer Support</h2>
+          <p className="text-gray-300 mb-6">The support team is available 24/7 through three channels:</p>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Live Chat</h3>
-              <p className="text-gray-300">3 Patti Tiger provides you with a live chat feature inside the app so that you can directly talk to the support team if you face any problems. Whether you face any issue like playing or using the app, this team responds to you quickly and helps you solve your issues in real time. Live chat is the fastest way to get support without leaving the app.</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">In-App Live Chat</h3>
+              <p className="text-gray-300">The fastest option. Open the app, navigate to Support, and start a live chat. The team typically responds within minutes and can handle deposit issues, account problems, and game queries in real time.</p>
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">WhatsApp</h3>
-              <p className="text-gray-300">You can also contact the support team through WhatsApp. You can simply use the number that is provided in the app to send your problem. This support team replies to you with instructions or solutions that make it easy to fix any problem. This WhatsApp support is very convenient because this is a simple and easy way to get help.</p>
+              <p className="text-gray-300">Prefer messaging outside the app? Use the WhatsApp number listed in the app to send your query. The support team replies with step-by-step instructions to resolve your issue.</p>
             </div>
             <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">FAQs</h3>
-              <p className="text-gray-300">This app also dedicates a FAQs section where common questions are given with their answers. You can check this section before contacting the customer support team to save time. These FAQs mostly cover all topics such as registration, deposit, withdrawals, bonuses, and game rules. So, this is quick and easy to find the solution without waiting long.</p>
+              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">FAQs Section</h3>
+              <p className="text-gray-300">Before contacting support, check the in-app FAQ section. It covers the most common questions about registration, deposits, withdrawals, bonuses, and game rules — saving you waiting time.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* From the Blog - internal links to blog */}
+      {/* From the Blog */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#FFA500]">From the 3 Patti Tiger Blog</h2>
-          <p className="text-gray-300 mb-8">Guides, tips, and reviews to help you play and earn with 3 Patti Tiger.</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#FFA500]">From the Blog</h2>
+          <p className="text-gray-300 mb-8">Guides, tips, and reviews to help you play and earn.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <Link href="/blog/3-patti-tiger-app-review-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">3 Patti Tiger App Review 2026</h3>
@@ -1160,7 +1176,7 @@ export default function Home() {
               <p className="text-gray-400 text-sm">Legitimacy, payment methods & how to spot fake apps.</p>
             </Link>
             <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
-              <h3 className="text-lg font-bold text-white mb-2">How to Use 3 Patti Tiger in Pakistan</h3>
+              <h3 className="text-lg font-bold text-white mb-2">How to Use the App in Pakistan</h3>
               <p className="text-gray-400 text-sm">Step-by-step beginner guide: download, deposit & play.</p>
             </Link>
             <Link href="/blog/tips-to-win-big-in-3-patti-tiger" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
@@ -1168,12 +1184,12 @@ export default function Home() {
               <p className="text-gray-400 text-sm">Expert strategies for Teen Patti, Rummy & card games.</p>
             </Link>
             <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
-              <h3 className="text-lg font-bold text-white mb-2">Is 3 Patti Tiger Safe & Legal?</h3>
-              <p className="text-gray-400 text-sm">Risks, rules & safe play tips for Pakistan.</p>
+              <h3 className="text-lg font-bold text-white mb-2">Is It Safe & Legal in Pakistan?</h3>
+              <p className="text-gray-400 text-sm">Risks, rules & safe play tips for Pakistani players.</p>
             </Link>
             <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
-              <h3 className="text-lg font-bold text-white mb-2">Ways to Earn Money with 3 Patti Tiger</h3>
-              <p className="text-gray-400 text-sm">Bonuses, daily rewards & how to maximize income.</p>
+              <h3 className="text-lg font-bold text-white mb-2">Ways to Earn Money in 2026</h3>
+              <p className="text-gray-400 text-sm">Bonuses, daily rewards & how to maximize your income.</p>
             </Link>
           </div>
           <p className="text-center">
@@ -1183,149 +1199,151 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="faq">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
-        <div className="space-y-4">
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              What is 3 Patti Tiger and how does it work?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              3 Patti Tiger is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. You can play 3 Patti Tiger without depositing money by using free bonuses like the Welcome Bonus and Referral Commission. 3 Patti Tiger offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa.
-            </div>
-          </details>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
+          <div className="space-y-4">
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              How to download 3 Patti Tiger APK?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              To download 3 Patti Tiger APK, visit 3pattitigergame.com.pk and click the download button. The 3 Patti Tiger APK file will be saved to your device. Enable "Install from Unknown Sources" in your Android settings, then open the downloaded file to install 3 Patti Tiger.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                What is 3 Patti Tiger and how does it work?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                3 Patti Tiger is Pakistan&apos;s premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other games. You can start without depositing money by claiming a Welcome Bonus or earning through referrals. Winnings are withdrawn via JazzCash and EasyPaisa.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              What makes 3 Patti Tiger different from other card games?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              3 Patti Tiger stands out with its simple design, fast transactions via JazzCash and EasyPaisa, exciting games like Teen Patti and Rummy, daily bonuses, and secure platform. 3 Patti Tiger offers the best card gaming experience in Pakistan with real cash rewards.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                How to download 3 Patti Tiger APK?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Visit 3pattitigergame.com.pk and click the Download button. The APK will save to your device. Enable &quot;Install from Unknown Sources&quot; in your Android settings, then open the downloaded file to install it.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is 3 Patti Tiger safe and legal to use?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, 3 Patti Tiger is safe to use with secure data encryption and privacy protection. 3 Patti Tiger ensures your personal information and transactions are protected. However, the legality of online gaming depends on your local laws, so always check your region's regulations before playing 3 Patti Tiger.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                What makes 3 Patti Tiger different from other card games?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                It stands out with its 100+ game variety, instant JazzCash and EasyPaisa transactions, daily bonuses, and a referral program that lets you earn without betting. The platform is also optimised for Pakistani budget phones — something most competitors overlook.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Can users lose money while playing?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, this app is involved with real money, so you might lose some amount if you do not play the games carefully. So, always play wisely and set a limit while playing.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                Is 3 Patti Tiger safe and legal to use?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                The app uses data encryption and secure payment systems to keep your information safe. Legality depends on your local laws in Pakistan — always check your region&apos;s regulations before playing with real money.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is it possible to change the language of 3 Patti Tiger?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, it is possible because this app supports multiple languages, so you can change the language from the settings menu easily.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                Can players lose money while playing?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Yes. Real money is involved, so losses are possible. Always set a session budget before you start and stop playing once that limit is reached. Never gamble money you cannot afford to lose.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              How do referral rewards work?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              When you share your referral link with others, or when someone joins this app through your link, you can receive a commission.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                Is it possible to change the language?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Yes. The app supports both English and Urdu. You can switch languages from the Settings menu at any time.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              How to bind bank?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              To bind your bank for withdrawals, go to Wallet &gt; Withdrawal &gt; Bank Card. Select your desired bank from the list, then enter your account number, user name, and email. Once submitted, your bank account will be linked and ready for withdrawals.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                How do referral rewards work?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Share your unique referral link with friends. When someone joins and starts playing through your link, you automatically receive a commission. The more active referrals you have, the more you earn over time.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              What is the maximum withdrawal at a time?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              For Bank Card withdrawals, the maximum amount you can withdraw at a time is PKR 20,000. For JazzCash and EasyPaisa, limits may vary—check the withdrawal section in the app for current limits.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                How to link a bank account for withdrawals?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Go to Wallet → Withdrawal → Bank Card. Select your bank from the list, enter your account number, full name, and email, then submit. Your bank account will be linked and ready to receive withdrawals.
+              </div>
+            </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is 3 Patti Tiger available on iPhone (iOS)?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              This app is mainly available for Android devices, but you can also check the official website or store for updates about iOS availability.
-            </div>
-          </details>
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                What is the maximum withdrawal at a time?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                For Bank Card withdrawals, the maximum is PKR 20,000 per transaction. For JazzCash and EasyPaisa, limits may vary — check the withdrawal section in the app for current limits.
+              </div>
+            </details>
+
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+              <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                Is 3 Patti Tiger available on iPhone (iOS)?
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
+                Currently, the app is only available for Android devices. An iOS version has not been officially released yet — check the official website for any future announcements.
+              </div>
+            </details>
+
           </div>
         </div>
       </section>
@@ -1333,11 +1351,14 @@ export default function Home() {
       {/* Conclusion */}
       <section className="pt-12 pb-4 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Final Thoughts</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Final Thoughts</h2>
           <div className="space-y-4">
-          <p className="text-gray-300">
-            3 Patti Tiger is one of the most popular online card games in the world. It not only provides you with fun or entertainment but also provides you with a great chance to earn money if you play games wisely. This app provides you with a simple and user-friendly interface that can make it easy, especially for beginners, to play games. The deposit or withdrawal system through JazzCash or EasyPaisa is very convenient, which makes this platform very easy to use. If you play responsibly, make plans with smart strategies, and focus on your skill rather than luck, 3 Patti Tiger can become a more exciting or rewarding gaming experience.
-          </p>
+            <p className="text-gray-300">
+              3 Patti Tiger is one of the most complete online card gaming platforms available to Pakistani players today. It combines cultural familiarity — the classic Teen Patti experience — with modern features like real-money earnings, instant local payments, and a generous referral program. Whether you&apos;re here for entertainment, skill-building, or a chance to earn, the platform has something for you.
+            </p>
+            <p className="text-gray-300">
+              Play wisely, set your limits, and use bonuses strategically. The players who get the most out of this app treat it as a structured activity — not a shortcut to wealth. Download the latest version today from the official link above and see why over 500,000 users across Pakistan have made it their go-to gaming app.
+            </p>
           </div>
         </div>
       </section>

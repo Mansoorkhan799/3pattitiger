@@ -24,37 +24,6 @@ export const metadata: Metadata = {
     template: "%s | 3 Patti Tiger"
   },
   description: "Pakistan's #1 card game app. Download 3 Patti Tiger APK, play Teen Patti, Dragon Tiger & win real cash. Fast JazzCash & EasyPaisa withdrawals.",
-  keywords: [
-    "3 Patti Tiger",
-    "Teen Patti Tiger",
-    "3 Patti Tiger download",
-    "3 Patti Tiger app",
-    "3 Patti Tiger apk",
-    "3 Patti Tiger pakistan",
-    "3 Patti Tiger online",
-    "download 3 Patti Tiger",
-    "3 Patti Tiger real money",
-    "Teen Patti Tiger APK",
-    "how to play 3 Patti Tiger",
-    "3 Patti Tiger 2026",
-    "Pakistan card games",
-    "Dragon vs Tiger game",
-    "Crash game",
-    "Mines game",
-    "earn money playing games",
-    "Android gaming app 2026",
-    "JazzCash gaming",
-    "EasyPaisa gaming",
-    "mobile card games",
-    "real money games Pakistan",
-    "3PattiTiger",
-    "Teen Patti online",
-    "Dragon Tiger",
-    "best earning app Pakistan",
-    "online gaming Pakistan",
-    "play Teen Patti online",
-    "3 Patti Tiger game download"
-  ],
   authors: [{ name: "3 Patti Tiger Team" }],
   creator: "3 Patti Tiger",
   publisher: "3 Patti Tiger",
@@ -197,7 +166,7 @@ export default function RootLayout({
         <WebVitalsTracker />
         
         {/* Structured data for Organization */}
-        <Script
+        <script
           id="organization-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -259,7 +228,7 @@ export default function RootLayout({
         />
         
         {/* Structured data for SoftwareApplication */}
-        <Script
+        <script
           id="app-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{

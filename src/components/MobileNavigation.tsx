@@ -100,6 +100,7 @@ export default function MobileNavigation() {
           </div>
           
           <nav className="flex flex-col p-4">
+            <Link href="/" className="text-white hover:text-accent py-2 text-lg font-medium transition-colors" onClick={closeMenu}>Home</Link>
             <Link href="/download-3-patti-tiger" className="text-white hover:text-accent py-2 text-lg font-medium transition-colors" onClick={closeMenu}>Download</Link>
             <Link href="/deposit-money-in-3-patti-tiger" className="text-white hover:text-accent py-2 text-lg font-medium transition-colors" onClick={closeMenu}>Deposit Guide</Link>
             <Link href="/withdraw-money-from-3-patti-tiger" className="text-white hover:text-accent py-2 text-lg font-medium transition-colors" onClick={closeMenu}>Withdraw Guide</Link>

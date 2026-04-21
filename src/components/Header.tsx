@@ -28,6 +28,9 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
+          <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
+            Home
+          </Link>
           <Link href="/download-3-patti-tiger" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
