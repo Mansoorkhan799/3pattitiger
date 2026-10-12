@@ -50,7 +50,7 @@ const faqItems: FaqItem[] = [
 
 export default function BlogWaysToEarnMoneyWithPattiTiger2026() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="Ways to Earn Money with 3 Patti Tiger 2026"
         description="Complete guide to earning with 3 Patti Tiger 2026: Weekly bonuses, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your income!"

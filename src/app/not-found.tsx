@@ -20,7 +20,7 @@ export default function NotFound() {
       </p>
       <Link 
         href="/"
-        className="bg-accent hover:bg-accent-hover text-[#06091F] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+        className="bg-accent hover:bg-accent-hover text-[#0a1609] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
       >
         Return to Homepage
       </Link>

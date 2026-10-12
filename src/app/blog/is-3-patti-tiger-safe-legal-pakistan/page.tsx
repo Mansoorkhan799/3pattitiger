@@ -50,7 +50,7 @@ const faqItems: FaqItem[] = [
 
 export default function BlogIsPattiTigerSafeLegal() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="Is 3 Patti Tiger Safe & Legal in Pakistan? 2026"
         description="Is 3 Patti Tiger legal in Pakistan? Complete safety guide 2026: Legal status, risks, security measures, withdrawal safety, and tips for safe play. Know before you play!"

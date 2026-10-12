@@ -37,7 +37,7 @@ export default function CreateAccountLogin() {
         slug="create-3-patti-tiger-account-and-login"
         datePublished="2026-01-20"
       />
-      <div className="min-h-screen bg-[#060A20]">
+      <div className="min-h-screen bg-[#0a1609]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">
             <Link href="/blog" className="text-accent hover:text-accent font-semibold inline-flex items-center">
@@ -63,7 +63,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -73,7 +73,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -83,7 +83,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -99,7 +99,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">
@@ -109,7 +109,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       5
                     </div>
                     <div className="flex-1">
@@ -125,7 +125,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -135,7 +135,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -145,7 +145,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -155,7 +155,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">
@@ -207,17 +207,17 @@ export default function CreateAccountLogin() {
                 <h2 className="text-3xl font-bold mb-8 text-white">Troubleshooting Login Issues</h2>
                 
                 <div className="space-y-6">
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Forgot Password?</h3>
                     <p className="text-gray-300 leading-relaxed">If you've forgotten your password, tap on the "Forgot Password" link on the login screen. You'll receive an OTP on your registered mobile number to reset your password.</p>
                   </div>
                   
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Account Locked?</h3>
                     <p className="text-gray-300 leading-relaxed">If your account gets locked due to multiple failed login attempts, wait for 30 minutes before trying again, or contact customer support for assistance. Also see our <Link href="/blog/ips-exceed-issue-3-patti-tiger-how-to-fix" className="text-accent hover:underline font-semibold">IPs Exceed error fix guide</Link> for common login-related issues.</p>
                   </div>
                   
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Can't Receive OTP?</h3>
                     <p className="text-gray-300 leading-relaxed">If you're not receiving OTP messages, check your network connection, ensure your mobile number is correct, or try requesting a new OTP. Contact 3 Patti Tiger support if the problem persists.</p>
                   </div>
@@ -228,15 +228,15 @@ export default function CreateAccountLogin() {
               <aside className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">What to Do Next</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">📖 Complete Beginner Guide</h4>
                     <p className="text-gray-400 text-sm">Full walkthrough: download, deposit & play</p>
                   </Link>
-                  <Link href="/deposit-money-in-3-patti-tiger" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/deposit-money-in-3-patti-tiger" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">💳 How to Deposit Money</h4>
                     <p className="text-gray-400 text-sm">JazzCash & EasyPaisa deposit guide</p>
                   </Link>
-                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">🎁 Bonuses & VIP Guide</h4>
                     <p className="text-gray-400 text-sm">Claim welcome bonus & VIP rewards</p>
                   </Link>
@@ -251,7 +251,7 @@ export default function CreateAccountLogin() {
                   href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
+                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#142414] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
                 >
                   DOWNLOAD NOW
                 </Link>

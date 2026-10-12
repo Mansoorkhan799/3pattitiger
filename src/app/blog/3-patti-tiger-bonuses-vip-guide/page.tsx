@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerBonusesVIPGuide() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3 Patti Tiger Bonuses & VIP Rewards Guide 2026"
         description="Complete 3 Patti Tiger bonuses guide 2026: Welcome bonus, recharge rebate, VIP levels, referral commission, daily tasks & step-by-step guide to maximize rewards in Pakistan!"

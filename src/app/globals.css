@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 2, 6, 23;
-  --background-end-rgb: 2, 6, 23;
+  --background-start-rgb: 10, 22, 9;
+  --background-end-rgb: 5, 12, 5;
 }
 
 body {
@@ -71,7 +71,7 @@ section {
 .download-btn {
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
 }
 
 .download-btn:hover {
@@ -79,7 +79,7 @@ section {
 }
 
 .download-btn:hover .download-icon {
-  animation: bounce 0.5s ease infinite;
+  animation: bounce 0.55s ease infinite;
 }
 
 @keyframes bounce {
@@ -98,7 +98,7 @@ section {
 }
 
 .stat-card {
-  background: rgba(10, 16, 41, 0.8);
+  background: rgba(20, 36, 20, 0.9);
   border-radius: 0.75rem;
   padding: 1.5rem;
   transition: all 0.3s ease;

@@ -50,7 +50,7 @@ const faqItems: FaqItem[] = [
 
 export default function BlogPattiTigerAppReview() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3 Patti Tiger App Review 2026: Pros, Cons & Payouts"
         description="Complete 3 Patti Tiger app review 2026: Honest analysis of features, games, bonuses, withdrawal speed, pros & cons. Is 3 Patti Tiger worth it for Pakistan players?"

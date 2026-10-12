@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogPattiTigerTips() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3 Patti Tiger: 10 Smart Tricks to Win More 2026"
         description="10 proven 3 Patti Tiger tips and tricks 2026: Bankroll management, game selection, bonus maximization, withdrawal strategies & safe play tips to increase winnings in Pakistan!"

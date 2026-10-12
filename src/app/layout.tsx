@@ -12,7 +12,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#06091F",
+  themeColor: "#0a1609",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -149,7 +149,7 @@ export default function RootLayout({
       <body
         className="antialiased bg-primary text-white min-h-screen flex flex-col"
         style={{
-          backgroundImage: "radial-gradient(circle at 10% 20%, rgba(10, 16, 41, 0.4) 0%, rgba(6, 9, 31, 0.01) 90%)",
+          backgroundImage: "radial-gradient(circle at 10% 20%, rgba(20, 40, 18, 0.25) 0%, rgba(5, 12, 5, 0.01) 90%)",
           backgroundAttachment: "fixed",
           minHeight: "100vh"
         }}

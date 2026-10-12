@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function Blog3PattiBlueVsPattiTiger() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3Patti Blue vs 3 Patti Tiger: Which Is Better?"
         description="Complete comparison: 3Patti Blue vs 3 Patti Tiger. Features, bonuses, withdrawal speed, game variety & earning potential. Find out which app pays better in 2026!"

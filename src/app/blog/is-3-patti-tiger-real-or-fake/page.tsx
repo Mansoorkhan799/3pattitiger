@@ -63,7 +63,7 @@ const faqItems: FaqItem[] = [
 
 export default function PattiTigerRealOrFakePage() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="Is 3 Patti Tiger Real or Fake? Full Guide 2026"
         description="Discover if 3 Patti Tiger app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps."
@@ -115,7 +115,7 @@ export default function PattiTigerRealOrFakePage() {
         </div>
 
         {/* Table of Contents */}
-        <div className="bg-[#0A1029] rounded-xl p-6 md:p-8 mb-12">
+        <div className="bg-[#142414] rounded-xl p-6 md:p-8 mb-12">
           <h2 className="text-2xl font-bold mb-4 text-[#FFA500]">Table of Contents</h2>
           <ul className="space-y-2 text-gray-300">
             <li className="hover:text-[#FFA500] transition-colors">
@@ -161,15 +161,15 @@ export default function PattiTigerRealOrFakePage() {
               Yes, the 3 Patti Tiger app is legit and widely used by many players. The platform has a massive community and has gained popularity for its smooth gameplay, faster, easier withdrawal processes, and multiple earning options.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-              <div className="bg-[#0A1029] p-4 rounded-lg text-center">
+              <div className="bg-[#142414] p-4 rounded-lg text-center">
                 <div className="text-3xl mb-2">✅</div>
                 <div className="text-white font-semibold">600K+ Downloads</div>
               </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg text-center">
+              <div className="bg-[#142414] p-4 rounded-lg text-center">
                 <div className="text-3xl mb-2">💰</div>
                 <div className="text-white font-semibold">Real Money Payouts</div>
               </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg text-center">
+              <div className="bg-[#142414] p-4 rounded-lg text-center">
                 <div className="text-3xl mb-2">🔒</div>
                 <div className="text-white font-semibold">Secure Platform</div>
               </div>
@@ -185,7 +185,7 @@ export default function PattiTigerRealOrFakePage() {
             </p>
             
             <div className="space-y-4">
-              <div className="bg-[#0A1029] p-5 rounded-lg border-l-4 border-[#4ade80]">
+              <div className="bg-[#142414] p-5 rounded-lg border-l-4 border-[#4ade80]">
                 <h3 className="text-white font-semibold mb-2">💳 Payment Options:</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
                   <li>JazzCash (Instant Transfer)</li>
@@ -194,7 +194,7 @@ export default function PattiTigerRealOrFakePage() {
                 </ul>
               </div>
 
-              <div className="bg-[#0A1029] p-5 rounded-lg border-l-4 border-[#60a5fa]">
+              <div className="bg-[#142414] p-5 rounded-lg border-l-4 border-[#60a5fa]">
                 <h3 className="text-white font-semibold mb-2">📊 Withdrawal Details:</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
                   <li>Minimum withdrawal limit: PKR 500 to PKR 10,000</li>
@@ -215,7 +215,7 @@ export default function PattiTigerRealOrFakePage() {
 
             <div className="space-y-6">
               {/* Fake Websites */}
-              <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="bg-[#142414] p-6 rounded-lg">
                 <div className="flex items-start gap-3">
                   <div className="text-2xl">⚠️</div>
                   <div>
@@ -228,7 +228,7 @@ export default function PattiTigerRealOrFakePage() {
               </div>
 
               {/* Unrealistic Earning Offers */}
-              <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="bg-[#142414] p-6 rounded-lg">
                 <div className="flex items-start gap-3">
                   <div className="text-2xl">💸</div>
                   <div>
@@ -241,7 +241,7 @@ export default function PattiTigerRealOrFakePage() {
               </div>
 
               {/* Unnecessary Permissions */}
-              <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="bg-[#142414] p-6 rounded-lg">
                 <div className="flex items-start gap-3">
                   <div className="text-2xl">🔐</div>
                   <div>
@@ -254,7 +254,7 @@ export default function PattiTigerRealOrFakePage() {
               </div>
 
               {/* No Customer Service */}
-              <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="bg-[#142414] p-6 rounded-lg">
                 <div className="flex items-start gap-3">
                   <div className="text-2xl">🚫</div>
                   <div>
@@ -267,7 +267,7 @@ export default function PattiTigerRealOrFakePage() {
               </div>
 
               {/* Reviews and Ratings */}
-              <div className="bg-[#0A1029] p-6 rounded-lg">
+              <div className="bg-[#142414] p-6 rounded-lg">
                 <div className="flex items-start gap-3">
                   <div className="text-2xl">⭐</div>
                   <div>
@@ -314,7 +314,7 @@ export default function PattiTigerRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
             <div className="space-y-4">
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#142414]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   Does the 3 Patti Tiger app actually pay real money?
                   <span className="transition group-open:rotate-180">
@@ -328,7 +328,7 @@ export default function PattiTigerRealOrFakePage() {
                 </div>
               </details>
 
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#142414]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   What are the tips for using 3 Patti Tiger safely?
                   <span className="transition group-open:rotate-180">
@@ -342,7 +342,7 @@ export default function PattiTigerRealOrFakePage() {
                 </div>
               </details>
 
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#142414]/50 rounded-xl">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   What are the signs that 3 Patti Tiger is not fake?
                   <span className="transition group-open:rotate-180">
@@ -364,27 +364,27 @@ export default function PattiTigerRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h3 className="text-2xl font-bold mb-6 text-[#FFA500]">Related Articles</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Link href="/download-3-patti-tiger" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/download-3-patti-tiger" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">📥 Download 3 Patti Tiger APK</h4>
                 <p className="text-gray-400 text-sm">Get the latest version of 3 Patti Tiger for Android</p>
               </Link>
-              <Link href="/blog/create-3-patti-tiger-account-and-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/create-3-patti-tiger-account-and-login" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🔐 Account & Login Guide</h4>
                 <p className="text-gray-400 text-sm">Learn how to create and secure your account</p>
               </Link>
-              <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">⚖️ Is 3 Patti Tiger Safe & Legal?</h4>
                 <p className="text-gray-400 text-sm">Complete legal status & safety guide for Pakistan</p>
               </Link>
-              <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🎁 Bonuses & VIP Rewards Guide</h4>
                 <p className="text-gray-400 text-sm">Welcome bonus, rebates & how to claim every reward</p>
               </Link>
-              <Link href="/blog/3-patti-tiger-app-review-2026" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/3-patti-tiger-app-review-2026" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">⭐ Full App Review 2026</h4>
                 <p className="text-gray-400 text-sm">Honest features, pros, cons & payout speed review</p>
               </Link>
-              <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+              <Link href="/blog/responsible-gaming-guide-3-patti-tiger" className="bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🛡️ Responsible Gaming Guide</h4>
                 <p className="text-gray-400 text-sm">How to play safely without addiction or big losses</p>
               </Link>

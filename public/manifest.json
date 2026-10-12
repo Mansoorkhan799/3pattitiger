@@ -4,8 +4,8 @@
   "description": "3 Patti Tiger - Pakistan's premier gaming platform offering Dragon Tiger, Crash, Mines, Teen Patti, Rummy and more. Earn real cash with JazzCash & EasyPaisa!",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#06091F",
-  "theme_color": "#06091F",
+  "background_color": "#0a1609",
+  "theme_color": "#0a1609",
   "icons": [
     {
       "src": "/3-patti-tiger.ico",

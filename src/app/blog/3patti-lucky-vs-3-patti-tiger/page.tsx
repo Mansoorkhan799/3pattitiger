@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function Blog3PattiLuckyVsPattiTiger() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3Patti Lucky vs 3 Patti Tiger: Which Is Better?"
         description="Detailed comparison: 3Patti Lucky vs 3 Patti Tiger. Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan players in 2026!"

@@ -50,7 +50,7 @@ const faqItems: FaqItem[] = [
 
 export default function BlogHowToUsePattiTigerGuide() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="How to Use 3 Patti Tiger App in Pakistan 2026"
         description="Complete 3 Patti Tiger app guide 2026 for Pakistan: Download, registration, deposit, withdrawal, gameplay & earning tips. Step-by-step tutorial for beginners!"

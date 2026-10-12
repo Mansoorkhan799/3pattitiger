@@ -61,7 +61,7 @@ export default function TipsToWinBig() {
         datePublished="2026-01-20"
         faqItems={faqItems}
       />
-      <div className="min-h-screen bg-[#060A20]">
+      <div className="min-h-screen bg-[#0a1609]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">
             <Link href="/blog" className="text-accent hover:text-accent font-semibold inline-flex items-center">
@@ -87,70 +87,70 @@ export default function TipsToWinBig() {
                 <h2 className="text-3xl font-bold mb-8 text-white">Essential Winning Strategies</h2>
                 
                 <div className="space-y-8">
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">1. Start with Small Bets</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Always start with small investments to understand the game rules and reduce the risk of losing money. This approach helps you learn the game mechanics without putting your entire bankroll at risk. Once you become confident and understand the patterns, gradually increase your bet amounts.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">2. Use Bonuses Wisely</h3>
                     <p className="text-gray-300 leading-relaxed">
                       3 Patti Tiger offers daily login bonuses, referral bonuses, and deposit rewards. Use these bonuses strategically to play more games without spending your own money. Check our <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="text-accent hover:underline font-semibold">complete bonuses & VIP guide</Link> to make the most of every reward.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">3. Play Popular High-Earning Games</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Focus on high-earning games like Teen Patti Classic, <Link href="/blog/dragon-vs-tiger-andar-bahar-high-payout-games" className="text-accent hover:underline font-semibold">Dragon vs Tiger</Link>, and Rummy that offer better winning chances and attract more players. These games typically have higher payouts and better odds. Learn the specific strategies for each game type to maximize your success rate.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">4. Invite Friends for Extra Income</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Use the referral link system to invite friends. Every time your friends join and start playing, you earn commission automatically. The more friends you invite, the higher your passive income becomes. This is an excellent way to earn without even playing.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">5. Stay Active Daily</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Regularly log in to the app to collect daily rewards and spin bonuses. Staying active increases your bonus balance and improves your chances of winning big. Daily login streaks often come with increasing rewards, so consistency is key.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">6. Withdraw on Time</h3>
                     <p className="text-gray-300 leading-relaxed">
                       When you earn a good amount, don't delay withdrawal. Transfer your winnings as soon as possible through JazzCash or EasyPaisa to keep your money safe. This prevents you from losing your winnings by playing more games impulsively.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">7. Learn from Practice Mode</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Before playing with real money, try the free or demo mode as practice. This helps you understand the gameplay easily and develop winning strategies without any risk. Master the game mechanics before investing real money.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">8. Keep Emotions in Control</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Never play with frustration or greed. Stay calm and make smart decisions during the game. Emotional playing leads to poor decisions and unnecessary losses. Set winning and losing limits, and stick to them strictly.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">9. Watch Expert Players</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Observe how experienced players make their moves. You can learn new techniques, strategies, and timing from them to improve your own skills. Many successful players follow specific patterns that you can adopt.
                     </p>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                  <div className="bg-[#142414] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-2xl font-bold mb-3 text-white">10. Avoid Fake Apps</h3>
                     <p className="text-gray-300 leading-relaxed">
                       Always download the original 3 Patti Tiger app through official and trusted sources. Fake links or websites can steal your personal data and money. Verify the app's authenticity before installing.
@@ -164,7 +164,7 @@ export default function TipsToWinBig() {
                 <h2 className="text-3xl font-bold mb-8 text-white">Game-Specific Winning Tips</h2>
                 
                 <div className="space-y-6">
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-2xl font-bold mb-4 text-accent">🎴 Teen Patti Tips</h3>
                     <ul className="space-y-3 text-gray-300">
                       <li className="flex items-start">
@@ -186,7 +186,7 @@ export default function TipsToWinBig() {
                     </ul>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-2xl font-bold mb-4 text-accent">🃏 Rummy Tips</h3>
                     <ul className="space-y-3 text-gray-300">
                       <li className="flex items-start">
@@ -208,7 +208,7 @@ export default function TipsToWinBig() {
                     </ul>
                   </div>
 
-                  <div className="bg-[#0A1029] rounded-xl p-6">
+                  <div className="bg-[#142414] rounded-xl p-6">
                     <h3 className="text-2xl font-bold mb-4 text-accent">🐉 Dragon vs Tiger Tips</h3>
                     <ul className="space-y-3 text-gray-300">
                       <li className="flex items-start">
@@ -280,7 +280,7 @@ export default function TipsToWinBig() {
               </div>
 
               {/* Warning */}
-              <div className="bg-[#0A1029] border-l-4 border-red-500 rounded-xl p-6 mb-8">
+              <div className="bg-[#142414] border-l-4 border-red-500 rounded-xl p-6 mb-8">
                 <div className="flex items-start">
                   <svg className="w-8 h-8 text-red-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
@@ -298,15 +298,15 @@ export default function TipsToWinBig() {
               <aside className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">Related Guides</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/blog/3-patti-tiger-bonuses-vip-guide" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">🎁 Bonuses & VIP Guide</h4>
                     <p className="text-gray-400 text-sm">Maximize welcome bonus, rebates & VIP rewards</p>
                   </Link>
-                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">📖 Beginner&apos;s Guide</h4>
                     <p className="text-gray-400 text-sm">Complete setup: download, deposit & first game</p>
                   </Link>
-                  <Link href="/blog/create-3-patti-tiger-account-and-login" className="block bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                  <Link href="/blog/create-3-patti-tiger-account-and-login" className="block bg-[#142414] p-4 rounded-lg hover:bg-[#142414]/70 transition-colors">
                     <h4 className="text-white font-semibold mb-1">🔐 Create Account</h4>
                     <p className="text-gray-400 text-sm">Step-by-step registration & login guide</p>
                   </Link>
@@ -322,7 +322,7 @@ export default function TipsToWinBig() {
                   href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
+                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#142414] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
                 >
                   DOWNLOAD NOW
                 </Link>

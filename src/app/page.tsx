@@ -217,15 +217,6 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto px-4 md:px-8 pt-4">
-        <ol className="flex items-center text-sm text-gray-400">
-          <li>
-            <span className="text-accent font-medium">Home</span>
-          </li>
-        </ol>
-      </nav>
-
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
         <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
@@ -251,41 +242,30 @@ export default function Home() {
                 id="download"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative flex items-center px-8 py-4 text-white font-semibold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group"
+                className="download-btn inline-flex items-center gap-3 bg-accent text-primary font-bold text-lg tracking-wide pl-8 pr-3 py-3 rounded-full shadow-[0_8px_24px_rgba(255,193,7,0.28)] hover:brightness-110 hover:shadow-[0_10px_28px_rgba(255,193,7,0.4)] active:scale-[0.98] transition-all group"
               >
                 <span>DOWNLOAD NOW</span>
-                <div className="ml-3 bg-[#f97316] rounded-full p-2 group-hover:scale-110 transition-transform">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                <span className="flex items-center justify-center w-11 h-11 rounded-full bg-primary text-accent">
+                  <svg className="w-5 h-5 download-icon" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                   </svg>
-                </div>
+                </span>
               </a>
             </div>
 
-            {/* Stats Grid */}
-            <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">500K+</div>
-                <div className="text-gray-400 text-sm">Downloads</div>
+            {/* Stats */}
+            <div className="flex flex-row gap-3 justify-center mt-8 mb-4" style={{ minHeight: '64px' }}>
+              <div className="flex-1 max-w-[180px] text-center py-3 border-t border-b border-white/10">
+                <div className="text-accent text-xl font-bold leading-tight">500K+</div>
+                <div className="text-gray-400 text-xs mt-0.5">Downloads</div>
               </div>
-
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">200K+</div>
-                <div className="text-gray-400 text-sm">Ratings</div>
+              <div className="flex-1 max-w-[180px] text-center py-3 border-t border-b border-white/10">
+                <div className="text-accent text-xl font-bold leading-tight">200K+</div>
+                <div className="text-gray-400 text-xs mt-0.5">Ratings</div>
               </div>
-
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">49MB</div>
-                <div className="text-gray-400 text-sm">App Size</div>
+              <div className="flex-1 max-w-[180px] text-center py-3 border-t border-b border-white/10">
+                <div className="text-accent text-xl font-bold leading-tight">49MB</div>
+                <div className="text-gray-400 text-xs mt-0.5">App Size</div>
               </div>
             </div>
 
@@ -339,47 +319,47 @@ export default function Home() {
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
               <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
                   <td className="py-4 px-6 text-left text-white">3 Patti Tiger</td>
                 </tr>
-                <tr className="bg-[#06091F]/50">
+                <tr className="bg-[#0a1609]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Developer</td>
                   <td className="py-4 px-6 text-left text-white">3pattitiger</td>
                 </tr>
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Category</td>
                   <td className="py-4 px-6 text-left text-white">Cards, Game</td>
                 </tr>
-                <tr className="bg-[#06091F]/50">
+                <tr className="bg-[#0a1609]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>
                   <td className="py-4 px-6 text-left text-white">49MB</td>
                 </tr>
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
                   <td className="py-4 px-6 text-left text-white">V1.3(1)</td>
                 </tr>
-                <tr className="bg-[#06091F]/50">
+                <tr className="bg-[#0a1609]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
                   <td className="py-4 px-6 text-left text-white">Android 5.0+</td>
                 </tr>
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
                   <td className="py-4 px-6 text-left text-white">15-March-2026</td>
                 </tr>
-                <tr className="bg-[#06091F]/50">
+                <tr className="bg-[#0a1609]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
                   <td className="py-4 px-6 text-left text-white">500k+</td>
                 </tr>
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Rating Count</td>
                   <td className="py-4 px-6 text-left text-white">200000+</td>
                 </tr>
-                <tr className="bg-[#06091F]/50">
+                <tr className="bg-[#0a1609]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Language</td>
                   <td className="py-4 px-6 text-left text-white">English, Urdu</td>
                 </tr>
-                <tr className="bg-[#0a1029]/50">
+                <tr className="bg-[#142414]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>
                   <td className="py-4 px-6 text-left text-white">Free (0$)</td>
                 </tr>
@@ -391,7 +371,7 @@ export default function Home() {
 
       {/* Table of Contents */}
       <section className="py-8 px-4 md:px-8 max-w-7xl mx-auto" id="toc">
-        <div className="bg-[#06091F] rounded-xl p-8 border border-gray-800">
+        <div className="bg-[#0a1609] rounded-xl p-8 border border-gray-800">
           <h2 className="text-2xl font-bold mb-6 text-[#FFA500]">Table of Contents</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
             {[
@@ -443,7 +423,7 @@ export default function Home() {
             </p>
 
             {/* Teen Patti Tiger clarification */}
-            <div className="bg-[#0A1029] rounded-lg p-5 border-l-4 border-[#FFA500]">
+            <div className="bg-[#142414] rounded-lg p-5 border-l-4 border-[#FFA500]">
               <p className="text-gray-300 text-sm leading-relaxed">
                 <strong className="text-[#FFA500]">Note:</strong> &quot;3 Patti Tiger&quot; and &quot;Teen Patti Tiger&quot; refer to the same app. &quot;3 Patti&quot; is the numerical shorthand for &quot;Teen Patti&quot; (Teen = Three in Hindi/Urdu), and both names are used interchangeably throughout Pakistan.
               </p>
@@ -461,27 +441,27 @@ export default function Home() {
               Online gaming in Pakistan has grown rapidly, and among all card-based apps, this platform stands out for reasons that go beyond just money and entertainment. Here is why it has resonated so strongly with Pakistani users:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Desi Card Culture</h3>
                 <p className="text-gray-300 text-sm">Teen Patti has always been a favourite at gatherings across Pakistan and South Asia. This app brings that beloved tradition to your phone — playable anytime, with real money at stake.</p>
               </div>
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Works on Budget Phones</h3>
                 <p className="text-gray-300 text-sm">Unlike many gaming apps that require expensive hardware, this platform is optimised to run well on mid-range and entry-level Android devices, making it accessible to millions across Pakistan.</p>
               </div>
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Earn Without Depositing</h3>
                 <p className="text-gray-300 text-sm">The Refer and Earn program lets users earn up to PKR 1,000 per successful referral without ever placing a bet. This unique feature drives strong word-of-mouth growth across cities and towns.</p>
               </div>
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Trusted Local Payments</h3>
                 <p className="text-gray-300 text-sm">JazzCash and EasyPaisa integration means players can deposit and withdraw using wallets they already trust and use daily — no international cards or bank accounts needed.</p>
               </div>
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Real Payout Proof</h3>
                 <p className="text-gray-300 text-sm">Verified payment screenshots shared daily by players in Pakistan have established the platform&apos;s credibility in a market where trust is everything.</p>
               </div>
-              <div className="bg-[#0A1029] p-5 rounded-lg">
+              <div className="bg-[#142414] p-5 rounded-lg">
                 <h3 className="text-white font-semibold mb-2">Strong Community</h3>
                 <p className="text-gray-300 text-sm">An active player community shares tips, strategies, and referral links across WhatsApp groups and Facebook pages, creating organic growth that no paid ad campaign can replicate.</p>
               </div>
@@ -510,7 +490,7 @@ export default function Home() {
 
       {/* Game Screenshots Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="screenshots">
-        <div className="bg-[#06091F] rounded-xl p-8">
+        <div className="bg-[#0a1609] rounded-xl p-8">
           <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">3 Patti Tiger App Screenshots</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
@@ -701,7 +681,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4 text-sm">Play against real opponents from across Pakistan in real time. Fast rounds and live betting make these the most popular category on the platform.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {["Tiger Dragon (Hot)", "7 UP Down (Hot)", "Zoo Roulette (Hot)", "Crash", "Car Roulette", "Andar Bahar", "Teenpatti 20-20", "Best of Five"].map((game) => (
-                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                <div key={game} className="bg-[#142414] p-4 rounded-lg">
                   <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
                 </div>
               ))}
@@ -713,7 +693,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4 text-sm">These games reward strategy and practice. The more you play, the better you get — making consistent winnings more achievable over time.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {["Domino (Hot)", "Rummy (Hot)", "Teen Patti", "Fishing Rush", "10 Cards", "Poker", "Ludo", "Black Jack"].map((game) => (
-                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                <div key={game} className="bg-[#142414] p-4 rounded-lg">
                   <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
                 </div>
               ))}
@@ -725,7 +705,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4 text-sm">Quick, visually exciting games where luck plays a bigger role. Mines and God of Fortune are consistently among the most-played titles on the platform.</p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {["Mines (Hot)", "Fruit Line", "777 Bingo", "Rattling GEMS", "Video Poker 1 & 2", "Wild Energy", "WoW Slot", "God of Fortune"].map((game) => (
-                <div key={game} className="bg-[#0A1029] p-4 rounded-lg">
+                <div key={game} className="bg-[#142414] p-4 rounded-lg">
                   <p className="text-white font-medium">{game.replace(" (Hot)", "")} {game.includes("(Hot)") && <span className="text-[#f97316]">(Hot)</span>}</p>
                 </div>
               ))}
@@ -745,19 +725,19 @@ export default function Home() {
             <p className="text-gray-300 mb-4">New players receive a 100% recharge bonus on their first deposit — whatever you put in, you get the same amount added as bonus chips.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#0a1029]">
+                <thead className="bg-[#142414]">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">1,000</td><td className="py-3 px-6 text-gray-300">1,000</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">5,000</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">1,000</td><td className="py-3 px-6 text-gray-300">1,000</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">5,000</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
                 </tbody>
               </table>
             </div>
@@ -769,7 +749,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4">Every deposit above a certain threshold earns a percentage rebate bonus, giving you extra chips to play with on every top-up.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#0a1029]">
+                <thead className="bg-[#142414]">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th>
@@ -777,12 +757,12 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3,000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8,000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3,000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5,000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8,000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
                 </tbody>
               </table>
             </div>
@@ -794,23 +774,23 @@ export default function Home() {
             <p className="text-gray-300 mb-4">Available for deposits of PKR 3,000 or more, this daily claimable rebate increases as you progress through VIP levels.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#0a1029]">
+                <thead className="bg-[#142414]">
                   <tr>
                     <th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th>
                     <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V1–V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V3–V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V5–V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V7–V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V9–V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V11–V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V13–V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V15–V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V17–V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V19–V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">V1–V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">V3–V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">V5–V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">V7–V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">V9–V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">V11–V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">V13–V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">V15–V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
+                  <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">V17–V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
+                  <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">V19–V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
                 </tbody>
               </table>
             </div>
@@ -848,7 +828,7 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">System Requirements</h2>
           <div className="overflow-x-auto mb-8">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
+              <thead className="bg-[#142414]">
                 <tr>
                   <th className="py-3 px-6 text-left text-white font-semibold">System</th>
                   <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
@@ -856,11 +836,11 @@ export default function Home() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
+                <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
+                <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
+                <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
+                <tr className="bg-[#142414]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
+                <tr className="bg-[#0a1609]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
               </tbody>
             </table>
           </div>
@@ -870,14 +850,14 @@ export default function Home() {
               href="https://pk3pattitiger.com/?from_gameid=8052768&channelCode=6669183"
               target="_blank"
               rel="noopener noreferrer"
-              className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
+              className="download-btn inline-flex items-center gap-3 bg-accent text-primary font-bold text-lg tracking-wide pl-8 pr-3 py-3 rounded-full shadow-[0_8px_24px_rgba(255,193,7,0.28)] hover:brightness-110 hover:shadow-[0_10px_28px_rgba(255,193,7,0.4)] active:scale-[0.98] transition-all group"
             >
-              <span className="text-lg">DOWNLOAD NOW</span>
-              <div className="download-icon ml-2 bg-[#f97316] rounded-full p-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+              <span>DOWNLOAD NOW</span>
+              <span className="flex items-center justify-center w-11 h-11 rounded-full bg-primary text-accent">
+                <svg className="w-5 h-5 download-icon" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                 </svg>
-              </div>
+              </span>
             </a>
           </div>
         </div>
@@ -921,15 +901,15 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Payment Methods — Deposit & Withdraw</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">1: JazzCash</h3>
               <p className="text-gray-300">Pakistan&apos;s most widely used mobile wallet. Deposits and withdrawals happen in seconds with no complicated bank steps. Simply enter your JazzCash number, confirm the amount, and the transaction is complete.</p>
             </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">2: EasyPaisa</h3>
               <p className="text-gray-300">Another trusted local payment option, equally fast and secure. EasyPaisa users can add funds to their game wallet or receive winnings directly — without needing a bank account.</p>
             </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg md:col-span-2 lg:col-span-1">
+            <div className="bg-[#142414] p-6 rounded-lg md:col-span-2 lg:col-span-1">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">3: Bank Card</h3>
               <p className="text-gray-300">For larger payouts, the Bank Card option lets you withdraw directly to your bank account. Enter your bank name, account number, and details to link it. Maximum withdrawal per transaction is PKR 20,000 via this method.</p>
             </div>
@@ -1018,7 +998,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Pros</h3>
-              <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
+              <div className="bg-[#142414] px-8 py-8 rounded-lg">
                 <ul className="list-disc pl-5 space-y-3 text-gray-300">
                   <li>Simple and fun to play</li>
                   <li>Earn money with a small investment</li>
@@ -1033,7 +1013,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Cons</h3>
-              <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
+              <div className="bg-[#142414] px-8 py-8 rounded-lg">
                 <ul className="list-disc pl-5 space-y-3 text-gray-300">
                   <li>Risk of financial loss — play responsibly</li>
                   <li>Withdrawals occasionally take longer during peak hours</li>
@@ -1054,7 +1034,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">What Players Are Saying</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">AK</div>
                 <div>
@@ -1070,7 +1050,7 @@ export default function Home() {
               <p className="text-gray-300 text-sm leading-relaxed">&quot;I was skeptical at first, but after a week of casual play I tested a small withdrawal — the money arrived in my JazzCash within minutes. Dragon Tiger is my favourite. Already referred 3 friends and earned referral bonuses on all of them.&quot;</p>
             </div>
 
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">MS</div>
                 <div>
@@ -1086,7 +1066,7 @@ export default function Home() {
               <p className="text-gray-300 text-sm leading-relaxed">&quot;Super easy to use. Joined through a referral link, got a nice welcome bonus, and my first EasyPaisa withdrawal worked perfectly. Customer support answered my question within a few minutes. Play responsibly though — it&apos;s easy to get hooked!&quot;</p>
             </div>
 
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-[#FFA500] flex items-center justify-center text-black font-bold text-sm">AR</div>
                 <div>
@@ -1108,7 +1088,7 @@ export default function Home() {
 
       {/* Responsible Gaming */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="responsible-gaming">
-        <div className="bg-[#06091F] border border-yellow-600/40 rounded-xl p-8">
+        <div className="bg-[#0a1609] border border-yellow-600/40 rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Responsible Gaming — Important Notice</h2>
           <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-4 mb-6">
             <p className="text-yellow-200 font-semibold text-sm">This app is intended for users aged 18 and above. It involves real money and the risk of financial loss. Please play responsibly.</p>
@@ -1145,15 +1125,15 @@ export default function Home() {
           <p className="text-gray-300 mb-6">The support team is available 24/7 through three channels:</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">In-App Live Chat</h3>
               <p className="text-gray-300">The fastest option. Open the app, navigate to Support, and start a live chat. The team typically responds within minutes and can handle deposit issues, account problems, and game queries in real time.</p>
             </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">WhatsApp</h3>
               <p className="text-gray-300">Prefer messaging outside the app? Use the WhatsApp number listed in the app to send your query. The support team replies with step-by-step instructions to resolve your issue.</p>
             </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#142414] p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">FAQs Section</h3>
               <p className="text-gray-300">Before contacting support, check the in-app FAQ section. It covers the most common questions about registration, deposits, withdrawals, bonuses, and game rules — saving you waiting time.</p>
             </div>
@@ -1167,27 +1147,27 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-2 text-[#FFA500]">From the Blog</h2>
           <p className="text-gray-300 mb-8">Guides, tips, and reviews to help you play and earn.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <Link href="/blog/3-patti-tiger-app-review-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/3-patti-tiger-app-review-2026" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">3 Patti Tiger App Review 2026</h3>
               <p className="text-gray-400 text-sm">Complete review: features, pros, cons & real user experience.</p>
             </Link>
-            <Link href="/blog/is-3-patti-tiger-real-or-fake" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/is-3-patti-tiger-real-or-fake" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">Is 3 Patti Tiger Real or Fake?</h3>
               <p className="text-gray-400 text-sm">Legitimacy, payment methods & how to spot fake apps.</p>
             </Link>
-            <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/how-to-use-3-patti-tiger-app-pakistan-guide-2026" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">How to Use the App in Pakistan</h3>
               <p className="text-gray-400 text-sm">Step-by-step beginner guide: download, deposit & play.</p>
             </Link>
-            <Link href="/blog/tips-to-win-big-in-3-patti-tiger" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/tips-to-win-big-in-3-patti-tiger" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">Tips to Win Big in 3 Patti Tiger</h3>
               <p className="text-gray-400 text-sm">Expert strategies for Teen Patti, Rummy & card games.</p>
             </Link>
-            <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/is-3-patti-tiger-safe-legal-pakistan" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">Is It Safe & Legal in Pakistan?</h3>
               <p className="text-gray-400 text-sm">Risks, rules & safe play tips for Pakistani players.</p>
             </Link>
-            <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="block bg-[#0A1029] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
+            <Link href="/blog/ways-to-earn-money-with-3-patti-tiger-2026" className="block bg-[#142414] p-6 rounded-lg hover:border-accent border border-transparent border-gray-700 transition-colors">
               <h3 className="text-lg font-bold text-white mb-2">Ways to Earn Money in 2026</h3>
               <p className="text-gray-400 text-sm">Bonuses, daily rewards & how to maximize your income.</p>
             </Link>
@@ -1204,7 +1184,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 What is 3 Patti Tiger and how does it work?
                 <span className="transition group-open:rotate-180">
@@ -1218,7 +1198,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 How to download 3 Patti Tiger APK?
                 <span className="transition group-open:rotate-180">
@@ -1232,7 +1212,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 What makes 3 Patti Tiger different from other card games?
                 <span className="transition group-open:rotate-180">
@@ -1246,7 +1226,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 Is 3 Patti Tiger safe and legal to use?
                 <span className="transition group-open:rotate-180">
@@ -1260,7 +1240,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 Can players lose money while playing?
                 <span className="transition group-open:rotate-180">
@@ -1274,7 +1254,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 Is it possible to change the language?
                 <span className="transition group-open:rotate-180">
@@ -1288,7 +1268,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 How do referral rewards work?
                 <span className="transition group-open:rotate-180">
@@ -1302,7 +1282,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 How to link a bank account for withdrawals?
                 <span className="transition group-open:rotate-180">
@@ -1316,7 +1296,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 What is the maximum withdrawal at a time?
                 <span className="transition group-open:rotate-180">
@@ -1330,7 +1310,7 @@ export default function Home() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
+            <details className="group bg-[#142414]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
                 Is 3 Patti Tiger available on iPhone (iOS)?
                 <span className="transition group-open:rotate-180">

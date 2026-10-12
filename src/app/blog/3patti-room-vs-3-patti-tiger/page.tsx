@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function Blog3PattiRoomVsPattiTiger() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3Patti Room vs 3 Patti Tiger: Which Is Better?"
         description="Comprehensive comparison: 3Patti Room vs 3 Patti Tiger. Features, bonuses, withdrawal speed & real earning potential for Pakistan players in 2026!"

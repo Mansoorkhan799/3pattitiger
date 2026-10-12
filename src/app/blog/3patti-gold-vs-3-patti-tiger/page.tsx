@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function Blog3PattiGoldVsPattiTiger() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="3Patti Gold vs 3 Patti Tiger: Which Is Better?"
         description="Detailed comparison: 3Patti Gold vs 3 Patti Tiger. Bonuses, games, withdrawal speed & earning analysis. Discover which app is better for Pakistan players in 2026!"

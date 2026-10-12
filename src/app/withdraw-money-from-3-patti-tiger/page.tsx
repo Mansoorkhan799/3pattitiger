@@ -97,7 +97,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 1 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     1
                   </div>
                   <div className="flex-1">
@@ -112,7 +112,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 2 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     2
                   </div>
                   <div className="flex-1">
@@ -127,7 +127,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 3 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     3
                   </div>
                   <div className="flex-1">
@@ -142,7 +142,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 4 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     4
                   </div>
                   <div className="flex-1">
@@ -157,7 +157,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 5 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     5
                   </div>
                   <div className="flex-1">
@@ -172,7 +172,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 6 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     6
                   </div>
                   <div className="flex-1">
@@ -187,7 +187,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 7 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     7
                   </div>
                   <div className="flex-1">
@@ -202,7 +202,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 8 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     8
                   </div>
                   <div className="flex-1">
@@ -217,7 +217,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 9 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#142414]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     9
                   </div>
                   <div className="flex-1">

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function BlogResponsibleGamingGuide() {
   return (
-    <div className="min-h-screen bg-[#060A20]">
+    <div className="min-h-screen bg-[#0a1609]">
       <BlogPostSchema
         title="Responsible Gaming Guide for 3 Patti Tiger 2026"
         description="Responsible gaming guide for 3 Patti Tiger 2026: Set limits, avoid addiction & play safely in Pakistan. Essential tips for every player."
